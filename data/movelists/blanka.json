@@ -1,0 +1,217 @@
+{
+ "id": "blanka",
+ "name": "布蘭卡",
+ "name_en": "Blanka",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "電擊",
+     "name_en": "Electric Thunder",
+     "input": "214P",
+     "note": "長按可延長",
+     "gauge": "d2"
+    },
+    {
+     "name": "滾動攻擊",
+     "name_en": "Rolling Attack",
+     "input": "[4]6P",
+     "gauge": "d2"
+    },
+    {
+     "name": "垂直滾動攻擊",
+     "name_en": "Vertical Rolling Attack",
+     "input": "[2]8K",
+     "gauge": "d2"
+    },
+    {
+     "name": "後退滾動攻擊",
+     "name_en": "Backstep Rolling Attack",
+     "input": "63214K",
+     "gauge": "d2"
+    },
+    {
+     "name": "空中滾動攻擊",
+     "name_en": "Aerial Rolling Attack",
+     "input": "j.[4]6P",
+     "gauge": "d2"
+    },
+    {
+     "name": "野性狩獵",
+     "name_en": "Wild Hunt",
+     "input": "236K",
+     "note": "近身時",
+     "gauge": "d2"
+    },
+    {
+     "name": "布蘭卡娃娃炸彈",
+     "name_en": "Blanka-chan Bomb",
+     "input": "22P"
+    },
+    {
+     "name": "滾動加農砲",
+     "name_en": "Rolling Cannon",
+     "input": "P",
+     "note": "使出滾動類必殺技時按任一方向；雷獸中"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "大地吶喊",
+     "name_en": "Shout of Earth",
+     "input": "236236P",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "雷獸",
+     "name_en": "Lightning Beast",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "削地砲彈",
+     "name_en": "Ground Shave Cannonball",
+     "input": "236236K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "碎岩擊",
+     "name_en": "Rock Crusher",
+     "input": "6MP"
+    },
+    {
+     "name": "雙膝轟炸",
+     "name_en": "Double Knee Bombs",
+     "input": "6MK"
+    },
+    {
+     "name": "野性之刃",
+     "name_en": "Wild Edge",
+     "input": "4MK"
+    },
+    {
+     "name": "野性之爪",
+     "name_en": "Wild Nail",
+     "input": "6HP"
+    },
+    {
+     "name": "亞馬遜河奔馳",
+     "name_en": "Amazon River Run",
+     "input": "3HP"
+    },
+    {
+     "name": "懦夫蹲",
+     "name_en": "Coward Crouch",
+     "input": "2PP",
+     "children": [
+      {
+       "name": "野性上撈",
+       "name_en": "Wild Lift",
+       "input": "P",
+       "note": "懦夫蹲中"
+      },
+      {
+       "name": "突襲跳",
+       "name_en": "Raid Jump",
+       "input": "K",
+       "note": "懦夫蹲中"
+      }
+     ]
+    },
+    {
+     "name": "奇襲前跳",
+     "name_en": "Surprise Forward Hop",
+     "input": "6KKK"
+    },
+    {
+     "name": "奇襲後跳",
+     "name_en": "Surprise Back Hop",
+     "input": "4KKK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "野性之牙",
+     "name_en": "Wild Fang",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "叢林翻投",
+     "name_en": "Jungle Flip",
+     "input": "4LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "野性咬擊",
+     "name_en": "Wild Bites",
+     "input": "j.LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：野性抓擊",
+     "name_en": "Drive Impact: Wild Scratch",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：快速滾動攻擊",
+     "name_en": "Drive Reversal: Quick Rolling Attack",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

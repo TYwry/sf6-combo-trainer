@@ -1,0 +1,191 @@
+{
+ "id": "ehonda",
+ "name": "本田",
+ "name_en": "E. Honda",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "百烈張手",
+     "name_en": "Hundred Hand Slap",
+     "input": "214P",
+     "note": "相撲氣魄狀態下效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "超級頭槌",
+     "name_en": "Sumo Headbutt",
+     "input": "[4]6P",
+     "gauge": "d2"
+    },
+    {
+     "name": "超級百貫落",
+     "name_en": "Sumo Smash",
+     "input": "[2]8K",
+     "gauge": "d2"
+    },
+    {
+     "name": "大銀杏投",
+     "name_en": "Oicho Throw",
+     "input": "63214K",
+     "note": "近身時",
+     "gauge": "d2"
+    },
+    {
+     "name": "相撲衝刺",
+     "name_en": "Sumo Dash",
+     "input": "236K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "鐵砲三連張手",
+       "name_en": "Teppo Triple Slap",
+       "input": "P.P",
+       "note": "相撲衝刺中"
+      },
+      {
+       "name": "大砲上撈",
+       "name_en": "Taiho Cannon Lift",
+       "input": "2P",
+       "note": "相撲衝刺中"
+      }
+     ]
+    },
+    {
+     "name": "貓騙",
+     "name_en": "Neko Damashi",
+     "input": "22P"
+    },
+    {
+     "name": "相撲氣魄",
+     "name_en": "Sumo Spirit",
+     "input": "22K"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "力量展示",
+     "name_en": "Show of Force",
+     "input": "236236P",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "鬼無雙",
+     "name_en": "Ultimate Killer Head Ram",
+     "input": "[4]646K",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "結願",
+     "name_en": "The Final Bout",
+     "input": "214214P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "拂踢",
+     "name_en": "Harai Kick",
+     "input": "6HK"
+    },
+    {
+     "name": "四股踏",
+     "name_en": "Power Stomp",
+     "input": "3HK"
+    },
+    {
+     "name": "飛身相撲壓",
+     "name_en": "Flying Sumo Press",
+     "input": "j.2MK",
+     "note": "前跳中"
+    },
+    {
+     "name": "雙張手",
+     "name_en": "Double Slaps",
+     "input": "LP.MP"
+    },
+    {
+     "name": "床鎮",
+     "name_en": "Toko Shizume",
+     "input": "MP.3HK",
+     "note": "可以用 ↓ + HK 取消成相撲氣魄"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "鯖折",
+     "name_en": "Saba Ori",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "俵投",
+     "name_en": "Tawara Throw",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：相撲壓碎",
+     "name_en": "Drive Impact: Sumo Crunch",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：雷電砲",
+     "name_en": "Drive Reversal: Raiden-Ho",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "id": "manon",
+ "name": "瑪儂",
+ "name_en": "Manon",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "黃金旋轉",
+     "name_en": "Manège Doré",
+     "input": "63214P",
+     "note": "近身時；效果依獎牌等級而定",
+     "gauge": "d2"
+    },
+    {
+     "name": "圓圈摔",
+     "name_en": "Rond-point",
+     "input": "236K",
+     "gauge": "d2"
+    },
+    {
+     "name": "伸展踢",
+     "name_en": "Dégagé",
+     "input": "214K",
+     "gauge": "d2"
+    },
+    {
+     "name": "翻轉摔",
+     "name_en": "Renversé",
+     "input": "236P",
+     "note": "長按按鍵可假動作；效果依獎牌等級而定",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "大揮鞭轉",
+       "name_en": "Grand Fouetté",
+       "input": "K",
+       "note": "翻轉摔中"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "阿拉貝斯克",
+     "name_en": "Arabesque",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "首席之星",
+     "name_en": "Étoile",
+     "input": "214214K",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "雙人舞",
+     "name_en": "Pas de Deux",
+     "input": "236236P",
+     "note": "近身時；體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "謝幕禮",
+     "name_en": "Révérence",
+     "input": "4HP"
+    },
+    {
+     "name": "後巴投",
+     "name_en": "Tomoe Derrière",
+     "input": "3HK"
+    },
+    {
+     "name": "落地",
+     "name_en": "À Terre",
+     "input": "MP.MK"
+    },
+    {
+     "name": "向上",
+     "name_en": "En Haut",
+     "input": "4MK.MK"
+    },
+    {
+     "name": "連結舞步",
+     "name_en": "Temps Lié",
+     "input": "HP.HP"
+    },
+    {
+     "name": "延展",
+     "name_en": "Allongé",
+     "input": "2HP.HP"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "大內刈",
+     "name_en": "Ouchi Gari",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "內股",
+     "name_en": "Uchi Mata",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：滑步",
+     "name_en": "Drive Impact: Glissade",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：分腿",
+     "name_en": "Drive Reversal: Écarté",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "id": "jp",
+ "name": "JP",
+ "name_en": "JP",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "特里格拉夫",
+     "name_en": "Triglav",
+     "input": "22P",
+     "gauge": "d2"
+    },
+    {
+     "name": "斯特里博格",
+     "name_en": "Stribog",
+     "input": "236P",
+     "gauge": "d2"
+    },
+    {
+     "name": "啟程",
+     "name_en": "Departure",
+     "input": "214P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "啟程：窗",
+       "name_en": "Departure: Window",
+       "input": "214LP",
+       "note": "啟程發動中；也可以：↓↙← + MP"
+      },
+      {
+       "name": "啟程：影",
+       "name_en": "Departure: Shadow",
+       "input": "214HP",
+       "note": "啟程發動中"
+      }
+     ]
+    },
+    {
+     "name": "失憶",
+     "name_en": "Amnesia",
+     "input": "22K",
+     "gauge": "d2"
+    },
+    {
+     "name": "托巴蘭",
+     "name_en": "Torbalan",
+     "input": "236K",
+     "note": "長按按鍵可假動作",
+     "gauge": "d2"
+    },
+    {
+     "name": "擁抱",
+     "name_en": "Embrace",
+     "input": "214K",
+     "gauge": "d2"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "黑神",
+     "name_en": "Chornobog",
+     "input": "236236P",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "陷阱",
+     "name_en": "Lovushka",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "禁令",
+     "name_en": "Interdiction",
+     "input": "236236K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "斷頭台",
+     "name_en": "Guillotinna",
+     "input": "6MK"
+    },
+    {
+     "name": "惡意",
+     "name_en": "Malice",
+     "input": "3HP"
+    },
+    {
+     "name": "史詩",
+     "name_en": "Bylina",
+     "input": "6HK"
+    },
+    {
+     "name": "雷霆之箭",
+     "name_en": "Grom Strelka",
+     "input": "4MP.MP"
+    },
+    {
+     "name": "齊蘭特",
+     "name_en": "Zilant",
+     "input": "HK.HP"
+    },
+    {
+     "name": "齊蘭特（中段）",
+     "name_en": "Zilant Mid",
+     "input": "HK.HP.HP"
+    },
+    {
+     "name": "齊蘭特（下段）",
+     "name_en": "Zilant Low",
+     "input": "HK.HP.HK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "峽谷",
+     "name_en": "Ravina",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "颶風",
+     "name_en": "Uragan",
+     "input": "4LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "龍捲",
+     "name_en": "Tornado",
+     "input": "j.LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：劍",
+     "name_en": "Drive Impact: Espada",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：流放",
+     "name_en": "Drive Reversal: Exilio",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

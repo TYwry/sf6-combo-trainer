@@ -1,0 +1,214 @@
+{
+ "id": "arjun",
+ "name": "阿爾俊",
+ "name_en": "Arjun",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "正義之臂",
+     "name_en": "Arm of Justice",
+     "input": "236P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "追擊",
+       "name_en": "Follow-up",
+       "input": "6P",
+       "note": "正義之臂中"
+      }
+     ]
+    },
+    {
+     "name": "殘酷肩擊",
+     "name_en": "Cruel Shoulder",
+     "input": "623P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "超越正義",
+       "name_en": "Justice Beyond",
+       "input": "",
+       "note": "不用輸入；殘酷肩擊撞到岩柱時自動發動"
+      }
+     ]
+    },
+    {
+     "name": "呼吸之環",
+     "name_en": "Breathing Ring",
+     "input": "236K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "呼吸衝擊波",
+       "name_en": "Breathing Shockwave",
+       "input": "6P",
+       "note": "呼吸之環中"
+      }
+     ]
+    },
+    {
+     "name": "神聖之柱",
+     "name_en": "Divine Pillar",
+     "input": "214K",
+     "note": "長按按鍵可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "恐怖審問",
+     "name_en": "Ghastly Interrogation",
+     "input": "63214P",
+     "note": "近身時",
+     "gauge": "d2"
+    },
+    {
+     "name": "不屈防禦",
+     "name_en": "Indomitable Defense",
+     "input": "22HK",
+     "note": "長按可延長",
+     "children": [
+      {
+       "name": "道德崩壞",
+       "name_en": "Moral Breakdown",
+       "input": "P",
+       "note": "不屈防禦中"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "咆哮毀滅",
+     "name_en": "Howling Destruction",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "瞬間湮滅",
+     "name_en": "Instant Oblivion",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "夜叉之令",
+     "name_en": "Yaksha's Order",
+     "input": "236236P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "職責之刃",
+     "name_en": "Blade of Duty",
+     "input": "6HP"
+    },
+    {
+     "name": "凌駕法律",
+     "name_en": "Above the Law",
+     "input": "6HK"
+    },
+    {
+     "name": "強加秩序",
+     "name_en": "Impose Order",
+     "input": "MK.HK"
+    },
+    {
+     "name": "失控大砲",
+     "name_en": "Loose Cannon",
+     "input": "HP.HP"
+    },
+    {
+     "name": "鎮壓",
+     "name_en": "Suppression",
+     "input": "HP.HP.HP"
+    },
+    {
+     "name": "緊追不捨",
+     "name_en": "Hot Pursuit",
+     "input": "HP.HP.HK"
+    },
+    {
+     "name": "懺悔之拳",
+     "name_en": "Penitent Fist",
+     "input": "HK.HP",
+     "note": "長按按鍵可改變效果"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "正義判決",
+     "name_en": "Righteous Verdict",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "審判之秤",
+     "name_en": "Scale of the Judged",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：過度執法",
+     "name_en": "Drive Impact: Excessive Force",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：復仇者之盾",
+     "name_en": "Drive Reversal: Shield of the Vindicator",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

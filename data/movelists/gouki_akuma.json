@@ -1,0 +1,254 @@
+{
+ "id": "gouki_akuma",
+ "name": "豪鬼",
+ "name_en": "Akuma",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "豪波動拳",
+     "name_en": "Gou Hadoken",
+     "input": "236P",
+     "note": "長按按鍵可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "斬空波動拳",
+     "name_en": "Zanku Hadoken",
+     "input": "j.236P",
+     "note": "前跳中",
+     "gauge": "d2"
+    },
+    {
+     "name": "豪昇龍拳",
+     "name_en": "Gou Shoryuken",
+     "input": "623P",
+     "gauge": "d2"
+    },
+    {
+     "name": "龍捲斬空腳",
+     "name_en": "Tatsumaki Zanku-kyaku",
+     "input": "214K",
+     "gauge": "d2"
+    },
+    {
+     "name": "空中龍捲斬空腳",
+     "name_en": "Aerial Tatsumaki Zanku-kyaku",
+     "input": "j.214K",
+     "note": "前跳中",
+     "gauge": "d2"
+    },
+    {
+     "name": "金剛灼火",
+     "name_en": "Adamant Flame",
+     "input": "214P.6P",
+     "gauge": "d2"
+    },
+    {
+     "name": "惡鬼襲",
+     "name_en": "Demon Raid",
+     "input": "236K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "惡鬼下段斬",
+       "name_en": "Demon Low Slash",
+       "input": "",
+       "note": "不用輸入；惡鬼襲中"
+      },
+      {
+       "name": "惡鬼斷頭",
+       "name_en": "Demon Guillotine",
+       "input": "P",
+       "note": "惡鬼襲中"
+      },
+      {
+       "name": "惡鬼刃腳",
+       "name_en": "Demon Blade Kick",
+       "input": "K",
+       "note": "惡鬼襲中"
+      },
+      {
+       "name": "惡鬼急降",
+       "name_en": "Demon Swoop",
+       "input": "[2]",
+       "note": "惡鬼襲中"
+      },
+      {
+       "name": "惡鬼豪斬空",
+       "name_en": "Demon Gou Zanku",
+       "input": "236P",
+       "note": "OD 惡鬼襲中"
+      },
+      {
+       "name": "惡鬼豪螺旋",
+       "name_en": "Demon Gou Rasen",
+       "input": "214K",
+       "note": "OD 惡鬼襲中"
+      }
+     ]
+    },
+    {
+     "name": "阿修羅閃空",
+     "name_en": "Ashura Senku",
+     "input": "4KKK",
+     "note": "也可以：→ + KKK"
+    },
+    {
+     "name": "朧投",
+     "name_en": "Oboro Throw",
+     "input": "6KKK.LP+LK"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "滅殺豪波動",
+     "name_en": "Messatsu Gohado",
+     "input": "236236P",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "天魔豪斬空",
+     "name_en": "Tenma Gozanku",
+     "input": "j.236236K",
+     "note": "垂直跳或前跳中",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "天上天下",
+     "name_en": "Empyrean's End",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "禍啜",
+     "name_en": "Sip of Calamity",
+     "input": "236236K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    },
+    {
+     "name": "瞬獄殺",
+     "name_en": "Shun Goku Satsu",
+     "input": "LP.LP.6.LK.HP",
+     "note": "體力剩 25% 以下時才能使用",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "碎顱",
+     "name_en": "Skull Splitter",
+     "input": "6MP"
+    },
+    {
+     "name": "裂岨彈踢",
+     "name_en": "Resso Snap Kick",
+     "input": "6MK"
+    },
+    {
+     "name": "羅牙高踢",
+     "name_en": "Rago High Kick",
+     "input": "4HK"
+    },
+    {
+     "name": "穿腸擊",
+     "name_en": "Viscera Piercer",
+     "input": "MP.MP"
+    },
+    {
+     "name": "碎骨踵落",
+     "name_en": "Bone Crusher Axe Kick",
+     "input": "MK.HK"
+    },
+    {
+     "name": "鬼哭連擊",
+     "name_en": "Kikoku Combination",
+     "input": "6HP.6HP.HK"
+    },
+    {
+     "name": "天魔空刃腳",
+     "name_en": "Tenmaku Blade Kick",
+     "input": "j.2MK",
+     "note": "前跳中"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "豪掌破",
+     "name_en": "Goshoha",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "修羅蹈",
+     "name_en": "Shuretto",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：鬼殺",
+     "name_en": "Drive Impact: Oni Goroshi",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：雙破雙掌",
+     "name_en": "Drive Reversal: Souha Double Palm",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

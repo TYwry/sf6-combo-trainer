@@ -1,0 +1,274 @@
+{
+ "id": "kimberly",
+ "name": "金伯莉",
+ "name_en": "Kimberly",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "武神旋風腳",
+     "name_en": "Bushin Senpukyaku",
+     "input": "214K",
+     "gauge": "d2"
+    },
+    {
+     "name": "空中武神旋風腳",
+     "name_en": "Aerial Bushin Senpukyaku",
+     "input": "j.214K",
+     "note": "前跳中",
+     "gauge": "d2"
+    },
+    {
+     "name": "疾跑",
+     "name_en": "Sprint",
+     "input": "236K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "緊急停止",
+       "name_en": "Emergency Stop",
+       "input": "P",
+       "note": "疾跑中"
+      },
+      {
+       "name": "斬胴",
+       "name_en": "Torso Cleaver",
+       "input": "LK",
+       "note": "疾跑中"
+      },
+      {
+       "name": "影滑",
+       "name_en": "Shadow Slide",
+       "input": "MK",
+       "note": "疾跑中"
+      },
+      {
+       "name": "獵首",
+       "name_en": "Neck Hunter",
+       "input": "HK",
+       "note": "疾跑中"
+      },
+      {
+       "name": "弧步",
+       "name_en": "Arc Step",
+       "input": "",
+       "note": "不用輸入；疾跑接近對手後自動發動"
+      },
+      {
+       "name": "武神飯綱落",
+       "name_en": "Bushin Izuna Otoshi",
+       "input": "P",
+       "note": "弧步中"
+      },
+      {
+       "name": "武神崩刃腳",
+       "name_en": "Bushin Hojin Kick",
+       "input": "K",
+       "note": "弧步中"
+      }
+     ]
+    },
+    {
+     "name": "流浪之刃",
+     "name_en": "Vagabond Edge",
+     "input": "236P",
+     "gauge": "d2"
+    },
+    {
+     "name": "隱藏變數",
+     "name_en": "Hidden Variable",
+     "input": "214P",
+     "note": "長按按鍵可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "天才遊戲",
+     "name_en": "Genius at Play",
+     "input": "22P",
+     "gauge": "d2"
+    },
+    {
+     "name": "手裏劍炸彈",
+     "name_en": "Shuriken Bomb",
+     "input": "22P",
+     "note": "手裏劍炸彈至少 1 個"
+    },
+    {
+     "name": "手裏劍炸彈散射",
+     "name_en": "Shuriken Bomb Spread",
+     "input": "22PP",
+     "note": "手裏劍炸彈至少 2 個"
+    },
+    {
+     "name": "鵺旋",
+     "name_en": "Nue Twister",
+     "input": "j.236P",
+     "note": "近身時",
+     "gauge": "d2"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "武神連擊",
+     "name_en": "Bushin Beats",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1,
+     "children": [
+      {
+       "name": "武神雷鳴連擊",
+       "name_en": "Bushin Thunderous Beats",
+       "input": "K",
+       "note": "手裏劍炸彈至少 1 個；武神連擊中；連打"
+      }
+     ]
+    },
+    {
+     "name": "武神爭奪",
+     "name_en": "Bushin Scramble",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "飛翔武神爭奪",
+     "name_en": "Soaring Bushin Scramble",
+     "input": "j.214214P",
+     "note": "前跳中",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "武神忍星密碼",
+     "name_en": "Bushin Ninjastar Cypher",
+     "input": "236236P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "水切滑",
+     "name_en": "Water Slicer Slide",
+     "input": "3MK"
+    },
+    {
+     "name": "風車踢",
+     "name_en": "Windmill Kick",
+     "input": "4HK"
+    },
+    {
+     "name": "飛翔腳",
+     "name_en": "Hisen Kick",
+     "input": "6HK",
+     "children": [
+      {
+       "name": "踏牆跳",
+       "name_en": "Step Up",
+       "input": "7",
+       "note": "飛翔腳之後；也可以：↑、↗"
+      }
+     ]
+    },
+    {
+     "name": "落肘",
+     "name_en": "Elbow Drop",
+     "input": "2MP",
+     "note": "前跳到最高點時"
+    },
+    {
+     "name": "武神虎牙",
+     "name_en": "Bushin Tiger Fangs",
+     "input": "MP.HP"
+    },
+    {
+     "name": "武神稜鏡擊",
+     "name_en": "Bushin Prism Strikes",
+     "input": "LP.MP.HP.HK"
+    },
+    {
+     "name": "武神地獄鎖",
+     "name_en": "Bushin Hellchain",
+     "input": "LP.MP.2HP.HK"
+    },
+    {
+     "name": "武神地獄鎖投",
+     "name_en": "Bushin Hellchain Throw",
+     "input": "LP.MP.2HP.2HK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "開傘投",
+     "name_en": "Ripcord Throw",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "敲鐘",
+     "name_en": "Bell Ringer",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：堅定打擊",
+     "name_en": "Drive Impact: Steadfast Strike",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：無形之境",
+     "name_en": "Drive Reversal: Shapeless State",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

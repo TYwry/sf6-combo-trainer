@@ -1,0 +1,252 @@
+{
+ "id": "chunli",
+ "name": "春麗",
+ "name_en": "Chun-Li",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "氣功拳",
+     "name_en": "Kikoken",
+     "input": "[4]6P",
+     "gauge": "d2"
+    },
+    {
+     "name": "百裂腳",
+     "name_en": "Hundred Lightning Kicks",
+     "input": "236K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "百裂腳追擊",
+       "name_en": "Lightning Kick Barrage",
+       "input": "KK",
+       "note": "OD 百裂腳之後"
+      }
+     ]
+    },
+    {
+     "name": "空中百裂腳",
+     "name_en": "Aerial Hundred Lightning Kicks",
+     "input": "j.236K",
+     "note": "垂直跳或前跳中",
+     "gauge": "d2"
+    },
+    {
+     "name": "旋風腳",
+     "name_en": "Spinning Bird Kick",
+     "input": "[2]8K",
+     "gauge": "d2"
+    },
+    {
+     "name": "霸山蹴",
+     "name_en": "Hazanshu",
+     "input": "214K",
+     "gauge": "d2"
+    },
+    {
+     "name": "天昇腳",
+     "name_en": "Tensho Kicks",
+     "input": "22K",
+     "gauge": "d2"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "氣功掌",
+     "name_en": "Kikosho",
+     "input": "236236P",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "空中氣功掌",
+     "name_en": "Aerial Kikosho",
+     "input": "j.236236P",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "鳳翼扇",
+     "name_en": "Hoyoku-sen",
+     "input": "236236K",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "蒼天亂華",
+     "name_en": "Soten Ranka",
+     "input": "214214K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "迅雷突",
+     "name_en": "Swift Thrust",
+     "input": "4MP",
+     "note": "也可以：→ + MP"
+    },
+    {
+     "name": "白虎雙掌打",
+     "name_en": "Hakkei",
+     "input": "4HP"
+    },
+    {
+     "name": "水蓮拳",
+     "name_en": "Water Lotus Fist",
+     "input": "3HP"
+    },
+    {
+     "name": "翼腳",
+     "name_en": "Yokusen Kick",
+     "input": "6HK"
+    },
+    {
+     "name": "鶴腳落",
+     "name_en": "Falling Crane",
+     "input": "3HK"
+    },
+    {
+     "name": "鷹爪腳",
+     "name_en": "Yoso Kick",
+     "input": "j.2MK",
+     "note": "最多可以連續出三次"
+    },
+    {
+     "name": "三角跳",
+     "name_en": "Wall Jump",
+     "input": "j.9",
+     "note": "要靠近牆壁"
+    },
+    {
+     "name": "翔鷹連擊",
+     "name_en": "Soaring Eagle Punches",
+     "input": "j.HP.HP"
+    },
+    {
+     "name": "行雲流水",
+     "name_en": "Serenity Stream",
+     "input": "214P",
+     "children": [
+      {
+       "name": "蘭掌",
+       "name_en": "Orchid Palm",
+       "input": "LP",
+       "note": "清流架勢中"
+      },
+      {
+       "name": "蛇擊",
+       "name_en": "Snake Strike",
+       "input": "MP",
+       "note": "清流架勢中"
+      },
+      {
+       "name": "蓮拳",
+       "name_en": "Lotus Fist",
+       "input": "HP",
+       "note": "清流架勢中"
+      },
+      {
+       "name": "前擊",
+       "name_en": "Forward Strike",
+       "input": "LK",
+       "note": "清流架勢中"
+      },
+      {
+       "name": "旋風踢",
+       "name_en": "Senpu Kick",
+       "input": "MK",
+       "note": "清流架勢中"
+      },
+      {
+       "name": "天空腳",
+       "name_en": "Tenku Kick",
+       "input": "HK",
+       "note": "清流架勢中"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "虎襲倒",
+     "name_en": "Koshuto",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "太極扇",
+     "name_en": "Taiji Fan",
+     "input": "4LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "龍星落",
+     "name_en": "Ryuseiraku",
+     "input": "j.LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "動力反擊：鳳翼踢",
+     "name_en": "Drive Reversal: Hoyoku Kick",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DI（動力衝擊）：崩旋腳",
+     "name_en": "Drive Impact: Hosen Kick",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

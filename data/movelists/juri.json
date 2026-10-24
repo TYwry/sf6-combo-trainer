@@ -1,0 +1,189 @@
+{
+ "id": "juri",
+ "name": "韓蛛俐",
+ "name_en": "Juri",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "風破刃",
+     "name_en": "Fuhajin",
+     "input": "214K",
+     "gauge": "d2"
+    },
+    {
+     "name": "碎破掌",
+     "name_en": "Saihasho",
+     "input": "236LK",
+     "note": "LK 發動；有風破存量時可以接暗劍殺或剛應殺",
+     "gauge": "d2"
+    },
+    {
+     "name": "暗劍殺",
+     "name_en": "Ankensatsu",
+     "input": "236MK",
+     "note": "MK 發動；有風破存量時可以接碎破掌或剛應殺",
+     "gauge": "d2"
+    },
+    {
+     "name": "剛應殺",
+     "name_en": "Go Ohsatsu",
+     "input": "236HK",
+     "note": "HK 發動；有風破存量時可以接碎破掌或暗劍殺",
+     "gauge": "d2"
+    },
+    {
+     "name": "天穿輪",
+     "name_en": "Tensenrin",
+     "input": "623P",
+     "gauge": "d2"
+    },
+    {
+     "name": "紫鳩扇",
+     "name_en": "Shiku-sen",
+     "input": "j.214K",
+     "note": "前跳中",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "死連扇",
+       "name_en": "Shiren-sen",
+       "input": "K",
+       "note": "紫鳩扇之後"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "殺界風破斬",
+     "name_en": "Sakkai Fuhazan",
+     "input": "236236K",
+     "note": "有風破存量時長按按鍵可改變效果",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "風水引擎",
+     "name_en": "Feng Shui Engine",
+     "input": "214214P",
+     "note": "長按按鍵突進",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "回旋斷界落",
+     "name_en": "Kaisen Dankai Raku",
+     "input": "214214K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "叫逝掌",
+     "name_en": "Kyosesho",
+     "input": "6MP"
+    },
+    {
+     "name": "旋懷腳",
+     "name_en": "Senkai Kick",
+     "input": "6MK"
+    },
+    {
+     "name": "連弧腳",
+     "name_en": "Renko Kicks",
+     "input": "6HP"
+    },
+    {
+     "name": "孤連斬",
+     "name_en": "Korenzan",
+     "input": "4HK"
+    },
+    {
+     "name": "死紋",
+     "name_en": "Death Crest",
+     "input": "MP.4HP.HP"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "蜘蛛牙投",
+     "name_en": "Spider Fang Throw",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "影腳投",
+     "name_en": "Shadow Kick Throw",
+     "input": "4LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "斬華扇",
+     "name_en": "Zanka-sen",
+     "input": "j.LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：折檻腳",
+     "name_en": "Drive Impact: Sekkan Kick",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：懷打突襲",
+     "name_en": "Drive Reversal: Kaita Raid",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

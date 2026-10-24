@@ -1,0 +1,2 @@
+PySide6-Essentials>=6.6,<7
+opencc-python-reimplemented>=0.1.7

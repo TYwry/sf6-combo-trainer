@@ -1,0 +1,186 @@
+{
+ "id": "vega_mbison",
+ "name": "維加（M.拜森）",
+ "name_en": "M. Bison",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "精神粉碎攻擊",
+     "name_en": "Psycho Crusher Attack",
+     "input": "[4]6P",
+     "note": "設置精神地雷時效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "雙膝壓",
+     "name_en": "Double Knee Press",
+     "input": "236K",
+     "gauge": "d2"
+    },
+    {
+     "name": "背拳連擊",
+     "name_en": "Backfist Combo",
+     "input": "214P",
+     "note": "設置精神地雷時效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "暗影升起",
+     "name_en": "Shadow Rise",
+     "input": "[2]8K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "頭部踩踏",
+       "name_en": "Head Press",
+       "input": "K",
+       "note": "暗影升起中",
+       "gauge": "d2"
+      },
+      {
+       "name": "空翻碎顱",
+       "name_en": "Somersault Skull Diver",
+       "input": "P",
+       "note": "頭部踩踏命中後"
+      },
+      {
+       "name": "惡魔反轉",
+       "name_en": "Devil Reverse",
+       "input": "P",
+       "note": "暗影升起中；設置精神地雷時效果改變",
+       "gauge": "d2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "膝壓夢魘",
+     "name_en": "Knee Press Nightmare",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "精神懲罰者",
+     "name_en": "Psycho Punisher",
+     "input": "214214K",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "無限精神粉碎",
+     "name_en": "Unlimited Psycho Crusher",
+     "input": "236236P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "精神重錘",
+     "name_en": "Psycho Hammer",
+     "input": "6HP"
+    },
+    {
+     "name": "邪惡膝擊",
+     "name_en": "Evil Knee",
+     "input": "4HK"
+    },
+    {
+     "name": "懸浮踢",
+     "name_en": "Hover Kick",
+     "input": "3HK"
+    },
+    {
+     "name": "暗影重錘",
+     "name_en": "Shadow Hammer",
+     "input": "MP.6HP"
+    },
+    {
+     "name": "暗影長矛",
+     "name_en": "Shadow Spear",
+     "input": "MP.2HK"
+    },
+    {
+     "name": "地獄攻擊",
+     "name_en": "Hell Attack",
+     "input": "j.MP.MP"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "致命投",
+     "name_en": "Deadly Throw",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "死亡之塔",
+     "name_en": "Death Tower",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：地獄扭轉",
+     "name_en": "Drive Impact: Hell Twist",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：地獄驅動",
+     "name_en": "Drive Reversal: Hell Drive",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

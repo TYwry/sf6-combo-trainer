@@ -1,0 +1,223 @@
+{
+ "id": "elena",
+ "name": "艾蓮娜",
+ "name_en": "Elena",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "犀牛角",
+     "name_en": "Rhino Horn",
+     "input": "236K",
+     "gauge": "d2"
+    },
+    {
+     "name": "刮擊輪",
+     "name_en": "Scratch Wheel",
+     "input": "623K",
+     "gauge": "d2"
+    },
+    {
+     "name": "山貓之歌",
+     "name_en": "Lynx Song",
+     "input": "236P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "獵豹突擊",
+       "name_en": "Leopard Snap",
+       "input": "6LK",
+       "note": "OD 山貓之歌中"
+      },
+      {
+       "name": "豐收之環",
+       "name_en": "Harvest Circle",
+       "input": "6MK",
+       "note": "OD 山貓之歌中"
+      },
+      {
+       "name": "木槌粉碎",
+       "name_en": "Mallet Smash",
+       "input": "6HK",
+       "note": "OD 山貓之歌中"
+      },
+      {
+       "name": "山貓旋舞",
+       "name_en": "Lynx Whirl",
+       "input": "6P",
+       "note": "OD 山貓之歌中"
+      }
+     ]
+    },
+    {
+     "name": "旋轉鐮刀",
+     "name_en": "Spinning Scythe",
+     "input": "214K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "山貓旋舞",
+       "name_en": "Lynx Whirl",
+       "input": "6P",
+       "note": "OD 旋轉鐮刀中"
+      }
+     ]
+    },
+    {
+     "name": "月之滑翔",
+     "name_en": "Moon Glider",
+     "input": "214P.6P",
+     "gauge": "d2"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "流星齊射",
+     "name_en": "Meteor Volley",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "復甦之舞",
+     "name_en": "Revival Dance",
+     "input": "236236P",
+     "note": "長按 ↓ 可改變效果",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "草原之歌",
+     "name_en": "Song of the Grasslands",
+     "input": "214214K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "滑鏟",
+     "name_en": "Slide",
+     "input": "3HK"
+    },
+    {
+     "name": "圓弧踢",
+     "name_en": "Round Arch",
+     "input": "4HK"
+    },
+    {
+     "name": "椋鳥之喙",
+     "name_en": "Starling Beak",
+     "input": "MP.MP"
+    },
+    {
+     "name": "倒立鞭腿",
+     "name_en": "Handstand Whip",
+     "input": "6MK.MK"
+    },
+    {
+     "name": "後蹬踢",
+     "name_en": "Hind Kick",
+     "input": "MK.HK"
+    },
+    {
+     "name": "雲雀振翅",
+     "name_en": "Fluttering Lark",
+     "input": "2MK.HK"
+    },
+    {
+     "name": "迴轉尾擊",
+     "name_en": "Turning Tail",
+     "input": "HP.HP"
+    },
+    {
+     "name": "象鼻拍擊",
+     "name_en": "Trunk Slap",
+     "input": "6HP.HP.HP"
+    },
+    {
+     "name": "翱翔突襲",
+     "name_en": "Soaring Raid",
+     "input": "j.LP.MK"
+    },
+    {
+     "name": "猛禽領域",
+     "name_en": "Raptor Range",
+     "input": "j.MP.HP"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "抱腿摔",
+     "name_en": "Leg Tackle",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "抬腿投",
+     "name_en": "Leg Lift Throw",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：長頸鹿之頸",
+     "name_en": "Drive Impact: Giraffe Neck",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：野豬衝撞",
+     "name_en": "Drive Reversal: Boar Charge",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

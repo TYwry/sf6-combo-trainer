@@ -1,0 +1,209 @@
+{
+ "id": "aki",
+ "name": "A.K.I.",
+ "name_en": "A.K.I.",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "夜影脈衝",
+     "name_en": "Nightshade Pulse",
+     "input": "214LP",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "夜影追擊",
+       "name_en": "Nightshade Chaser",
+       "input": "6P",
+       "note": "夜影脈衝中；觸發毒花"
+      }
+     ]
+    },
+    {
+     "name": "蘭泉",
+     "name_en": "Orchid Spring",
+     "input": "214MP"
+    },
+    {
+     "name": "毒環",
+     "name_en": "Toxic Wreath",
+     "input": "214HP"
+    },
+    {
+     "name": "蛇鞭",
+     "name_en": "Serpent Lash",
+     "input": "236P",
+     "note": "觸發毒花",
+     "gauge": "d2"
+    },
+    {
+     "name": "殘酷命運",
+     "name_en": "Cruel Fate",
+     "input": "214K",
+     "gauge": "d2"
+    },
+    {
+     "name": "蛇步",
+     "name_en": "Snake Step",
+     "input": "236K",
+     "gauge": "d2"
+    },
+    {
+     "name": "邪滑步",
+     "name_en": "Sinister Slide",
+     "input": "2PP",
+     "note": "可以用 ↑ 取消",
+     "children": [
+      {
+       "name": "毒牙",
+       "name_en": "Venomous Fang",
+       "input": "P",
+       "note": "邪滑步中；觸發毒花"
+      },
+      {
+       "name": "踵擊",
+       "name_en": "Heel Strike",
+       "input": "K",
+       "note": "邪滑步中"
+      },
+      {
+       "name": "誘捕",
+       "name_en": "Entrapment",
+       "input": "LP+LK",
+       "note": "邪滑步中；近身時"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "致命牽連",
+     "name_en": "Deadly Implication",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "污爪",
+     "name_en": "Tainted Talons",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "睚眥之爪",
+     "name_en": "Claws of Ya Zi",
+     "input": "236236P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "蒲牢",
+     "name_en": "Pu Lao",
+     "input": "3MP"
+    },
+    {
+     "name": "螭吻",
+     "name_en": "Chi Wen",
+     "input": "6HP"
+    },
+    {
+     "name": "囚牛",
+     "name_en": "Qiu Niu",
+     "input": "6HK"
+    },
+    {
+     "name": "功夫",
+     "name_en": "Gong Fu",
+     "input": "j.2HP",
+     "note": "前跳中"
+    },
+    {
+     "name": "混沌",
+     "name_en": "Hun Dun",
+     "input": "LP.LP"
+    },
+    {
+     "name": "窮奇",
+     "name_en": "Qiong Qi",
+     "input": "HP.HP",
+     "note": "觸發毒花"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "耳語",
+     "name_en": "Whisper",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "饕餮",
+     "name_en": "Gluttony",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：爪翅",
+     "name_en": "Drive Impact: Zao Chi",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：風蝕",
+     "name_en": "Drive Reversal: Feng Shi",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

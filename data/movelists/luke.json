@@ -1,0 +1,216 @@
+{
+ "id": "luke",
+ "name": "呂克",
+ "name_en": "Luke",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "沙塵爆破",
+     "name_en": "Sand Blast",
+     "input": "236P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "致命射擊",
+       "name_en": "Fatal Shot",
+       "input": "PP",
+       "note": "OD 沙塵爆破之後",
+       "gauge": "d1"
+      }
+     ]
+    },
+    {
+     "name": "閃光鐵拳",
+     "name_en": "Flash Knuckle",
+     "input": "214P",
+     "note": "長按按鍵可改變效果",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "DDT",
+       "name_en": "DDT",
+       "input": "PP",
+       "note": "OD 閃光鐵拳之後",
+       "gauge": "d1"
+      }
+     ]
+    },
+    {
+     "name": "空中閃光鐵拳",
+     "name_en": "Aerial Flash Knuckle",
+     "input": "j.214P",
+     "note": "垂直跳或前跳中；長按按鍵可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "復仇者",
+     "name_en": "Avenger",
+     "input": "236K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "無畏肩撞",
+       "name_en": "No Chaser",
+       "input": "P",
+       "note": "復仇者中"
+      },
+      {
+       "name": "穿刺者",
+       "name_en": "Impaler",
+       "input": "K",
+       "note": "復仇者中"
+      }
+     ]
+    },
+    {
+     "name": "上升勾拳",
+     "name_en": "Rising Uppercut",
+     "input": "623P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "灌籃",
+       "name_en": "Slam Dunk",
+       "input": "PP",
+       "note": "OD 上升勾拳之後",
+       "gauge": "d1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "火神爆破",
+     "name_en": "Vulcan Blast",
+     "input": "236236P",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "抹殺者",
+     "name_en": "Eraser",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "蒼白騎士",
+     "name_en": "Pale Rider",
+     "input": "236236K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "直拳連擊",
+     "name_en": "Rawhide",
+     "input": "6MP"
+    },
+    {
+     "name": "重壓擊",
+     "name_en": "Suppressor",
+     "input": "4HP"
+    },
+    {
+     "name": "亡命踢",
+     "name_en": "Outlaw Kick",
+     "input": "4HK"
+    },
+    {
+     "name": "雙重衝擊",
+     "name_en": "Double Impact",
+     "input": "6HP.HP"
+    },
+    {
+     "name": "三重衝擊",
+     "name_en": "Triple Impact",
+     "input": "LP.MP.HP"
+    },
+    {
+     "name": "碎鼻擊",
+     "name_en": "Nose Breaker",
+     "input": "2MK.2HP"
+    },
+    {
+     "name": "回馬連擊",
+     "name_en": "Snapback Combo",
+     "input": "MP.MP.MP.MP"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "掃踢",
+     "name_en": "Sweeper",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "摔角手",
+     "name_en": "Scrapper",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：槍口火光",
+     "name_en": "Drive Impact: Muzzle Flash",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：攻城槌",
+     "name_en": "Drive Reversal: Battering Ram",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

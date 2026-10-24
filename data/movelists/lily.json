@@ -1,0 +1,192 @@
+{
+ "id": "lily",
+ "name": "莉莉",
+ "name_en": "Lily",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "禿鷹之風",
+     "name_en": "Condor Wind",
+     "input": "214P",
+     "note": "長按按鍵可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "禿鷹尖塔",
+     "name_en": "Condor Spire",
+     "input": "236K",
+     "note": "纏風狀態下效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "戰斧破壞者",
+     "name_en": "Tomahawk Buster",
+     "input": "623P",
+     "note": "纏風狀態下效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "禿鷹俯衝",
+     "name_en": "Condor Dive",
+     "input": "j.PP",
+     "note": "垂直跳或前跳中；纏風狀態下效果改變",
+     "children": [
+      {
+       "name": "禿鷹俯衝（追擊）",
+       "name_en": "Condor Dive (Follow-up)",
+       "input": "PP",
+       "note": "纏風強化的禿鷹俯衝之後",
+       "gauge": "d1"
+      }
+     ]
+    },
+    {
+     "name": "OD 禿鷹俯衝",
+     "name_en": "OD Condor Dive",
+     "input": "j.PPP",
+     "note": "垂直跳、前跳或 OD 戰斧破壞者中；纏風狀態下效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "墨西哥颱風",
+     "name_en": "Mexican Typhoon",
+     "input": "63214789P",
+     "note": "近身時；轉一圈",
+     "gauge": "d2"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "疾風之鷹",
+     "name_en": "Breezing Hawk",
+     "input": "236236P",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "雷鳥",
+     "name_en": "Thunderbird",
+     "input": "236236K",
+     "note": "纏風狀態下效果改變",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "翱翔雷鳥",
+     "name_en": "Soaring Thunderbird",
+     "input": "j.236236K",
+     "note": "纏風狀態下效果改變",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "狂暴颱風",
+     "name_en": "Raging Typhoon",
+     "input": "214214P",
+     "note": "近身時；體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "山脊突擊",
+     "name_en": "Ridge Thrust",
+     "input": "3HP"
+    },
+    {
+     "name": "斷角",
+     "name_en": "Horn Breaker",
+     "input": "4HP"
+    },
+    {
+     "name": "大迴旋",
+     "name_en": "Great Spin",
+     "input": "j.2HP"
+    },
+    {
+     "name": "雙箭",
+     "name_en": "Double Arrow",
+     "input": "j.MP.MP"
+    },
+    {
+     "name": "沙漠風暴",
+     "name_en": "Desert Storm",
+     "input": "6HP.HP.HP"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "峽谷投",
+     "name_en": "Canyon Throw",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "墜崖",
+     "name_en": "Falling Cliff",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：大地之怒",
+     "name_en": "Drive Impact: Earth's Rage",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：交叉重錘",
+     "name_en": "Drive Reversal: Cross Hammer",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

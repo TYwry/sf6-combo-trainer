@@ -1,0 +1,199 @@
+{
+ "id": "yasmine",
+ "name": "亞思閔",
+ "name_en": "Yasmine",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "流水之勢",
+     "name_en": "Daloy ng Tubig",
+     "input": "236P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "浪潮",
+       "name_en": "Alon",
+       "input": "6P",
+       "note": "流水之勢中；英雄模式中效果改變"
+      }
+     ]
+    },
+    {
+     "name": "風之刃",
+     "name_en": "Talim ng Hangin",
+     "input": "214P",
+     "gauge": "d2"
+    },
+    {
+     "name": "天之面",
+     "name_en": "Mukha ng Langit",
+     "input": "236K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "雨",
+       "name_en": "Ulan",
+       "input": "P",
+       "note": "天之面中",
+       "gauge": "d2"
+      },
+      {
+       "name": "雷",
+       "name_en": "Kulog",
+       "input": "K",
+       "note": "天之面中",
+       "gauge": "d2"
+      }
+     ]
+    },
+    {
+     "name": "鷹之飛翔",
+     "name_en": "Lipad ng Agila",
+     "input": "623K",
+     "gauge": "d2"
+    },
+    {
+     "name": "背後之牙",
+     "name_en": "Pangil sa Likuran",
+     "input": "22P",
+     "gauge": "d2"
+    },
+    {
+     "name": "光之線",
+     "name_en": "Linya ng Liwanag",
+     "input": "4KK",
+     "note": "隱藏之力中"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "天空之斬",
+     "name_en": "Hiwa ng Kalangitan",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "隱藏之力",
+     "name_en": "Nakatagong Lakas",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "茉莉花綻放",
+     "name_en": "Pamumukadkad ng Sampaguita",
+     "input": "236236P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "下斬",
+     "name_en": "Hiwang Pababa",
+     "input": "6MP"
+    },
+    {
+     "name": "下掃",
+     "name_en": "Walis na Pabagsak",
+     "input": "4HK"
+    },
+    {
+     "name": "閃電斬",
+     "name_en": "Kidlat na Hiwa",
+     "input": "LP.LP",
+     "note": "可連打取消的站立輕攻擊中"
+    },
+    {
+     "name": "三連斬",
+     "name_en": "Tatlong Hiwa",
+     "input": "MP.MP"
+    },
+    {
+     "name": "連續踢",
+     "name_en": "Sunod-sunod na Sipa",
+     "input": "MK.MK.HK"
+    },
+    {
+     "name": "擊倒連擊",
+     "name_en": "Kumbinasyong Pampabagsak",
+     "input": "2MK.HK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "壓頭",
+     "name_en": "Pigil-Ulo",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "拉手投",
+     "name_en": "Hila-Kamay",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：身體重擊",
+     "name_en": "Drive Impact: Dagok sa Katawan",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：雙掌拍擊",
+     "name_en": "Drive Reversal: Dobleng Palo Gamit ang Palad",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

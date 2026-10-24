@@ -1,0 +1,198 @@
+{
+ "id": "ed",
+ "name": "艾德",
+ "name_en": "Ed",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "精神火花",
+     "name_en": "Psycho Spark",
+     "input": "236P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "精神射擊",
+       "name_en": "Psycho Shoot",
+       "input": "6P",
+       "note": "精神火花中"
+      }
+     ]
+    },
+    {
+     "name": "精神上勾拳",
+     "name_en": "Psycho Uppercut",
+     "input": "623P",
+     "gauge": "d2"
+    },
+    {
+     "name": "精神閃擊",
+     "name_en": "Psycho Blitz",
+     "input": "214P",
+     "gauge": "d2"
+    },
+    {
+     "name": "精神刺拳",
+     "name_en": "Psycho Flicker",
+     "input": "236K",
+     "note": "長按按鍵可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "殺戮突進（前）",
+     "name_en": "Kill Rush (Forward)",
+     "input": "KK",
+     "note": "集氣攻擊時按 →→ 發動；也可以：→ + KK",
+     "children": [
+      {
+       "name": "殺戮開關破",
+       "name_en": "Kill Switch Break",
+       "input": "6P",
+       "note": "殺戮突進（前）的前半段"
+      },
+      {
+       "name": "殺戮開關追擊",
+       "name_en": "Kill Switch Chaser",
+       "input": "6P",
+       "note": "殺戮突進（前）的後半段"
+      }
+     ]
+    },
+    {
+     "name": "殺戮突進（後）",
+     "name_en": "Kill Rush (Backward)",
+     "input": "4KK",
+     "note": "集氣攻擊時按 ←← 發動"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "精神風暴",
+     "name_en": "Psycho Storm",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "精神加農砲",
+     "name_en": "Psycho Cannon",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "精神密室",
+     "name_en": "Psycho Chamber",
+     "input": "236236P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "精神鐵拳",
+     "name_en": "Psycho Knuckle",
+     "input": "HP",
+     "note": "長按按鍵可改變效果；連打"
+    },
+    {
+     "name": "眼鏡蛇拳",
+     "name_en": "Cobra Punch",
+     "input": "6HP"
+    },
+    {
+     "name": "刺拳連擊",
+     "name_en": "Flicker Combination",
+     "input": "LK.LK.LK"
+    },
+    {
+     "name": "腹擊連擊",
+     "name_en": "Body Blow Combination",
+     "input": "MP.HP"
+    },
+    {
+     "name": "殺手連擊",
+     "name_en": "Hitman Combination",
+     "input": "MK.MK.HP"
+    },
+    {
+     "name": "下段粉碎連擊",
+     "name_en": "Low Smash Combination",
+     "input": "2HK.HP"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "碎臉摔",
+     "name_en": "Face Buster",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "碎肋擊",
+     "name_en": "Rib Crusher",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：迴旋拳",
+     "name_en": "Drive Impact (Turn Punch)",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：鐵錘重擊",
+     "name_en": "Drive Reversal (Hammer Blow)",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

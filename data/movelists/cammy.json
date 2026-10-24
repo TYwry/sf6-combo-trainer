@@ -1,0 +1,213 @@
+{
+ "id": "cammy",
+ "name": "嘉米",
+ "name_en": "Cammy",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "螺旋箭",
+     "name_en": "Spiral Arrow",
+     "input": "236K",
+     "note": "只有 HK 可以長按",
+     "gauge": "d2"
+    },
+    {
+     "name": "加農鑽",
+     "name_en": "Cannon Spike",
+     "input": "623K",
+     "note": "只有 HK 可以長按",
+     "gauge": "d2"
+    },
+    {
+     "name": "快速迴旋拳",
+     "name_en": "Quick Spin Knuckle",
+     "input": "214P",
+     "gauge": "d2"
+    },
+    {
+     "name": "加農突擊",
+     "name_en": "Cannon Strike",
+     "input": "j.214K",
+     "note": "前跳中",
+     "gauge": "d2"
+    },
+    {
+     "name": "流氓連擊",
+     "name_en": "Hooligan Combination",
+     "input": "236P",
+     "note": "只有 HP 可以長按",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "剃刀切割",
+       "name_en": "Razor's Edge Slicer",
+       "input": "",
+       "note": "不用輸入；流氓連擊中"
+      },
+      {
+       "name": "加農突擊",
+       "name_en": "Cannon Strike",
+       "input": "K",
+       "note": "流氓連擊中"
+      },
+      {
+       "name": "反轉之刃",
+       "name_en": "Reverse Edge",
+       "input": "2K",
+       "note": "流氓連擊中"
+      },
+      {
+       "name": "致命腿絞",
+       "name_en": "Fatal Leg Twister",
+       "input": "LP+LK",
+       "note": "流氓連擊中；靠近站著的對手時"
+      },
+      {
+       "name": "無聲步",
+       "name_en": "Silent Step",
+       "input": "P",
+       "note": "流氓連擊中"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "迴旋驅動粉碎者",
+     "name_en": "Spin Drive Smasher",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "殺手蜂旋轉",
+     "name_en": "Killer Bee Spin",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "空中殺手蜂旋轉",
+     "name_en": "Aerial Killer Bee Spin",
+     "input": "j.214214P",
+     "note": "前跳中",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "三角紅隊突擊",
+     "name_en": "Delta Red Assault",
+     "input": "236236P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "上撈勾拳",
+     "name_en": "Lift Uppercut",
+     "input": "4MP"
+    },
+    {
+     "name": "延遲撕裂",
+     "name_en": "Delayed Ripper",
+     "input": "6HK"
+    },
+    {
+     "name": "突擊之刃",
+     "name_en": "Assault Blade",
+     "input": "4HK"
+    },
+    {
+     "name": "上撈連擊",
+     "name_en": "Lift Combination",
+     "input": "4MP.HK"
+    },
+    {
+     "name": "擺盪連擊",
+     "name_en": "Swing Combination",
+     "input": "HP.HK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "粗暴著陸",
+     "name_en": "Rough Landing",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "三角投",
+     "name_en": "Delta Throw",
+     "input": "4LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "剪刀腿絞",
+     "name_en": "Leg Scissors Choke",
+     "input": "j.LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：迴旋突襲",
+     "name_en": "Drive Impact: Spin Raider",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：反擊狙擊",
+     "name_en": "Drive Reversal: Countersnipe",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "id": "mai",
+ "name": "不知火舞",
+ "name_en": "Mai",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "花蝶扇",
+     "name_en": "Kachousen",
+     "input": "236P",
+     "note": "長按按鍵可改變效果；有火焰存量時效果改變",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "亂花蝶扇",
+       "name_en": "Midare Kachousen",
+       "input": "6P",
+       "note": "長按的 OD 花蝶扇之後；有火焰存量時效果改變"
+      }
+     ]
+    },
+    {
+     "name": "龍炎舞",
+     "name_en": "Ryuuenbu",
+     "input": "214P",
+     "note": "有火焰存量時效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "必殺忍蜂",
+     "name_en": "Hissatsu Shinobi Bachi",
+     "input": "236K",
+     "note": "有火焰存量時效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "飛翔龍炎陣",
+     "name_en": "Hishou Ryuuenjin",
+     "input": "623K",
+     "note": "有火焰存量時效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "鼯鼠之舞",
+     "name_en": "Musasabi no Mai",
+     "input": "j.214P",
+     "note": "前跳中；有火焰存量時效果改變",
+     "gauge": "d2"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "陽炎之舞",
+     "name_en": "Kagerou no Mai",
+     "input": "236236P",
+     "note": "有火焰存量時效果改變",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "超必殺忍蜂",
+     "name_en": "Chou Hissatsu Shinobi Bachi",
+     "input": "236236K",
+     "note": "有火焰存量時效果改變",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "空中超必殺忍蜂",
+     "name_en": "Air Chou Hissatsu Shinobi Bachi",
+     "input": "j.236236K",
+     "note": "垂直跳或前跳中；有火焰存量時效果改變",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "不知火流・炎舞仇櫻",
+     "name_en": "Shiranui Ryuu: Enbu Ada Zakura",
+     "input": "214214P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "仙骨打",
+     "name_en": "Senkotsu Uchi",
+     "input": "6MP"
+    },
+    {
+     "name": "飛燕連腳",
+     "name_en": "Hien Ren Kyaku",
+     "input": "LK.LK.LK"
+    },
+    {
+     "name": "星孔雀",
+     "name_en": "Hoshi Kujaku",
+     "input": "4HK.HK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "不知火剛臨",
+     "name_en": "Shiranui Gourin",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "風車崩",
+     "name_en": "Fuusha Kuzushi",
+     "input": "4LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "夢櫻",
+     "name_en": "Yume Zakura",
+     "input": "j.LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：牡丹一華",
+     "name_en": "Drive Impact: Botan Ichige",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：梅櫻",
+     "name_en": "Drive Reversal: Yusura Ume",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

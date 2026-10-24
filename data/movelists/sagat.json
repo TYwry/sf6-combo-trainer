@@ -1,0 +1,225 @@
+{
+ "id": "sagat",
+ "name": "沙加特",
+ "name_en": "Sagat",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "上段猛虎射",
+     "name_en": "High Tiger Shot",
+     "input": "236MP",
+     "note": "也可以：↓↘→ + HP",
+     "gauge": "d2"
+    },
+    {
+     "name": "下段猛虎射",
+     "name_en": "Low Tiger Shot",
+     "input": "236LP",
+     "gauge": "d2"
+    },
+    {
+     "name": "猛虎上勾拳",
+     "name_en": "Tiger Uppercut",
+     "input": "623P",
+     "gauge": "d2"
+    },
+    {
+     "name": "猛虎膝擊",
+     "name_en": "Tiger Knee Crush",
+     "input": "236K",
+     "gauge": "d2"
+    },
+    {
+     "name": "虎之連結",
+     "name_en": "Tiger Nexus",
+     "input": "214K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "強大猛虎",
+       "name_en": "Mighty Tiger",
+       "input": "6LK",
+       "note": "虎之連結中"
+      },
+      {
+       "name": "貪婪猛虎",
+       "name_en": "Greedy Tiger",
+       "input": "6MK",
+       "note": "虎之連結中"
+      },
+      {
+       "name": "新星猛虎",
+       "name_en": "Nova Tiger",
+       "input": "6HK",
+       "note": "虎之連結中"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "猛虎加農砲",
+     "name_en": "Tiger Cannon",
+     "input": "236236P",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "猛虎",
+     "name_en": "Savage Tiger",
+     "input": "214214K",
+     "gauge": "s2",
+     "level": 2,
+     "children": [
+      {
+       "name": "猛虎突襲",
+       "name_en": "Savage Tiger Raid",
+       "input": "5",
+       "note": "猛虎中"
+      },
+      {
+       "name": "猛虎巔峰",
+       "name_en": "Savage Tiger Zenith",
+       "input": "6",
+       "note": "猛虎中"
+      },
+      {
+       "name": "猛虎鐘擺",
+       "name_en": "Savage Tiger Pendulum",
+       "input": "4",
+       "note": "猛虎中"
+      },
+      {
+       "name": "猛虎踐踏",
+       "name_en": "Savage Tiger Stomp",
+       "input": "2",
+       "note": "猛虎中"
+      }
+     ]
+    },
+    {
+     "name": "猛虎征服者",
+     "name_en": "Tiger Vanquisher",
+     "input": "236236K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "猛虎重肘",
+     "name_en": "Tiger Heavy Elbow",
+     "input": "6MP"
+    },
+    {
+     "name": "猛虎巨石",
+     "name_en": "Tiger Monolith",
+     "input": "4HP"
+    },
+    {
+     "name": "下段踏踢",
+     "name_en": "Low Step Kick",
+     "input": "6LK"
+    },
+    {
+     "name": "上段踏踢",
+     "name_en": "High Step Kick",
+     "input": "6HK"
+    },
+    {
+     "name": "中段踏踢",
+     "name_en": "Middle Step Kick",
+     "input": "MK.HK"
+    },
+    {
+     "name": "猛虎螫刺",
+     "name_en": "Tiger Sting",
+     "input": "HP.HK"
+    },
+    {
+     "name": "猛虎斬",
+     "name_en": "Tiger Slash",
+     "input": "2MP.HP"
+    },
+    {
+     "name": "猛虎升",
+     "name_en": "Tiger Rise",
+     "input": "2MP.HK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "猛虎吊",
+     "name_en": "Tiger Hang",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "猛虎扛",
+     "name_en": "Tiger Carry",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：猛虎懲罰",
+     "name_en": "Drive Impact: Tiger Punishment",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：猛虎雙塔",
+     "name_en": "Drive Reversal: Tiger Twin Babel",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

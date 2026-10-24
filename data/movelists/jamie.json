@@ -1,0 +1,217 @@
+{
+ "id": "jamie",
+ "name": "傑米",
+ "name_en": "Jamie",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "魔身步",
+     "name_en": "The Devil Inside",
+     "input": "22P",
+     "note": "長按可延長"
+    },
+    {
+     "name": "流醉拳",
+     "name_en": "Freeflow Strikes",
+     "input": "236P.6P.6P",
+     "note": "酒量 4 以上效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "流醉腳",
+     "name_en": "Freeflow Kicks",
+     "input": "236P.6K.6K",
+     "gauge": "d2"
+    },
+    {
+     "name": "張弓腿",
+     "name_en": "Swagger Step",
+     "input": "214P",
+     "gauge": "d2"
+    },
+    {
+     "name": "飛天腳",
+     "name_en": "Arrow Kick",
+     "input": "623K",
+     "gauge": "d2"
+    },
+    {
+     "name": "疾空腳",
+     "name_en": "Luminous Dive Kick",
+     "input": "j.214K",
+     "note": "酒量 1 以上；前跳中",
+     "gauge": "d2"
+    },
+    {
+     "name": "跋扈",
+     "name_en": "Bakkai",
+     "input": "236K",
+     "note": "酒量 2 以上",
+     "gauge": "d2"
+    },
+    {
+     "name": "點穴破",
+     "name_en": "Tenshin",
+     "input": "63214K",
+     "note": "酒量 3 以上；近身時",
+     "gauge": "d2"
+    },
+    {
+     "name": "醉仙拳",
+     "name_en": "Swagger Hermit Punch",
+     "input": "214P.6P",
+     "note": "酒量 4 以上",
+     "gauge": "d2"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "武賴殺",
+     "name_en": "Breakin'",
+     "input": "236236K",
+     "note": "長按 ↓ 可改變效果",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "絕唱魔身",
+     "name_en": "The Devil's Song",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "月牙彩鳳",
+     "name_en": "Getsuga Saiho",
+     "input": "236236P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "天成踢",
+     "name_en": "Tensei Kick",
+     "input": "2KK"
+    },
+    {
+     "name": "幻影閃避",
+     "name_en": "Phantom Sway",
+     "input": "2HK.HK.P"
+    },
+    {
+     "name": "落星踢",
+     "name_en": "Falling Star Kick",
+     "input": "6MK"
+    },
+    {
+     "name": "仙人肘",
+     "name_en": "Hermit's Elbow",
+     "input": "4HP"
+    },
+    {
+     "name": "先影腳",
+     "name_en": "Senei Kick",
+     "input": "6HK"
+    },
+    {
+     "name": "苦味連擊",
+     "name_en": "Bitter Strikes",
+     "input": "LP.LK.MP",
+     "note": "酒量 1 以上"
+    },
+    {
+     "name": "滿月踢",
+     "name_en": "Full Moon Kick",
+     "input": "6MK.MK.P",
+     "note": "酒量 2 以上"
+    },
+    {
+     "name": "醉酒強襲",
+     "name_en": "Intoxicated Assault",
+     "input": "4HP.HP.HK",
+     "note": "酒量 3 以上"
+    },
+    {
+     "name": "亂醉靄",
+     "name_en": "Ransui Haze",
+     "input": "6HK.4HK.P",
+     "note": "酒量 4 以上；最後一擊按鍵的時機不同，效果會改變"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "背削",
+     "name_en": "Back Shaver",
+     "input": "LP+LK",
+     "note": "近身時；長按按鍵可改變效果；也可以：→ + LP+LK"
+    },
+    {
+     "name": "輪拳",
+     "name_en": "Wheel Punch",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：虛榮打擊",
+     "name_en": "Drive Impact: Vainglory Strike",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：掃腿",
+     "name_en": "Drive Reversal: Leg Sweep",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

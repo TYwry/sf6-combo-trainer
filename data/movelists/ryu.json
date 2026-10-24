@@ -1,0 +1,191 @@
+{
+ "id": "ryu",
+ "name": "隆",
+ "name_en": "Ryu",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "波動拳",
+     "name_en": "Hadoken",
+     "input": "236P",
+     "note": "電刃練氣狀態下效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "昇龍拳",
+     "name_en": "Shoryuken",
+     "input": "623P",
+     "gauge": "d2"
+    },
+    {
+     "name": "龍捲旋風腳",
+     "name_en": "Tatsumaki Senpu-kyaku",
+     "input": "214K",
+     "gauge": "d2"
+    },
+    {
+     "name": "空中龍捲旋風腳",
+     "name_en": "Aerial Tatsumaki Senpu-kyaku",
+     "input": "j.214K",
+     "note": "前跳中",
+     "gauge": "d2"
+    },
+    {
+     "name": "上段足刀踢",
+     "name_en": "High Blade Kick",
+     "input": "236K",
+     "gauge": "d2"
+    },
+    {
+     "name": "波掌擊",
+     "name_en": "Hashogeki",
+     "input": "214P",
+     "note": "電刃練氣狀態下效果改變",
+     "gauge": "d2"
+    },
+    {
+     "name": "電刃練氣",
+     "name_en": "Denjin Charge",
+     "input": "22P"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "真空波動拳",
+     "name_en": "Shinku Hadoken",
+     "input": "236236P",
+     "note": "電刃練氣狀態下效果改變",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "真波掌擊",
+     "name_en": "Shin Hashogeki",
+     "input": "214214P",
+     "note": "長按按鍵可改變效果；電刃練氣狀態下效果改變",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "真昇龍拳",
+     "name_en": "Shin Shoryuken",
+     "input": "236236K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "鎖骨割",
+     "name_en": "Collarbone Breaker",
+     "input": "6MP"
+    },
+    {
+     "name": "鳩尾打",
+     "name_en": "Solar Plexus Strike",
+     "input": "6HP"
+    },
+    {
+     "name": "短鉤拳",
+     "name_en": "Short Uppercut",
+     "input": "4HP"
+    },
+    {
+     "name": "斧踢",
+     "name_en": "Axe Kick",
+     "input": "4HK"
+    },
+    {
+     "name": "旋風腳",
+     "name_en": "Whirlwind Kick",
+     "input": "6HK"
+    },
+    {
+     "name": "上段二連擊",
+     "name_en": "High Double Strike",
+     "input": "HP.HK",
+     "note": "可以用 ↓ + P 取消成電刃練氣"
+    },
+    {
+     "name": "不破三連擊",
+     "name_en": "Fuwa Triple Strike",
+     "input": "MP.LK.HK",
+     "note": "可以用 ↓ + P 取消成電刃練氣"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "背負投",
+     "name_en": "Shoulder Throw",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "巴投",
+     "name_en": "Somersault Throw",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：震擊",
+     "name_en": "Drive Impact: Shingeki",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：胸擊",
+     "name_en": "Drive Reversal: Chest Strike",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

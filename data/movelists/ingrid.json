@@ -1,0 +1,179 @@
+{
+ "id": "ingrid",
+ "name": "英格麗特",
+ "name_en": "Ingrid",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "太陽射擊",
+     "name_en": "Sun Shot",
+     "input": "236P",
+     "note": "長按按鍵可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "太陽閃焰",
+     "name_en": "Sun Flare",
+     "input": "214P",
+     "note": "輕攻擊可以長按；太陽紋章會改變重攻擊與 OD 招式的效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "太陽爆發",
+     "name_en": "Solar Burst",
+     "input": "j.214P",
+     "note": "垂直跳或前跳中；太陽紋章會改變重攻擊與 OD 招式的效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "旭日",
+     "name_en": "Sun Rise",
+     "input": "236K",
+     "gauge": "d2"
+    },
+    {
+     "name": "太陽帷幕",
+     "name_en": "Sun Veil",
+     "input": "22K",
+     "gauge": "d2"
+    },
+    {
+     "name": "消逝之陽",
+     "name_en": "Vanishing Sun",
+     "input": "4KKK",
+     "note": "也可以：↓ + KKK、→ + KKK"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "閃耀之陽",
+     "name_en": "Shining Sun",
+     "input": "236236K",
+     "note": "有太陽紋章存量時長按按鍵，攻擊效果改變",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "太陽秩序",
+     "name_en": "Order of the Sun",
+     "input": "214214P",
+     "note": "有太陽紋章存量時長按按鍵，攻擊效果改變",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "宇宙射線",
+     "name_en": "Cosmic Ray",
+     "input": "236236P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "明亮之陽",
+     "name_en": "Sun Bright",
+     "input": "6MP"
+    },
+    {
+     "name": "光環飛翔",
+     "name_en": "Halo Flight",
+     "input": "6HP"
+    },
+    {
+     "name": "漂亮踵擊",
+     "name_en": "Pretty Heel Kick",
+     "input": "MP.MK"
+    },
+    {
+     "name": "發光之觸",
+     "name_en": "Glowing Touch",
+     "input": "4MK.HP"
+    },
+    {
+     "name": "光輝上勾拳",
+     "name_en": "Luminous Uppercut",
+     "input": "4HP.HP"
+    },
+    {
+     "name": "衛星躍",
+     "name_en": "Satellite Leap",
+     "input": "j.HK.HK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "奇異鐵拳",
+     "name_en": "Strange Knuckle",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "重力下墜",
+     "name_en": "Gravity Drop",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：閃爍踢",
+     "name_en": "Drive Impact: Twinkle Kick",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：奇異飛行",
+     "name_en": "Drive Reversal: Odd Flight",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "id": "deejay",
+ "name": "迪傑",
+ "name_en": "Dee Jay",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "空氣斬",
+     "name_en": "Air Slasher",
+     "input": "[4]6P",
+     "gauge": "d2"
+    },
+    {
+     "name": "折刀極限",
+     "name_en": "Jackknife Maximum",
+     "input": "[2]8K",
+     "gauge": "d2"
+    },
+    {
+     "name": "翻滾假動作",
+     "name_en": "Roll Through Feint",
+     "input": "236LK"
+    },
+    {
+     "name": "快速迴轉踢",
+     "name_en": "Quick Rolling Sobat",
+     "input": "236MK"
+    },
+    {
+     "name": "雙重迴轉踢",
+     "name_en": "Double Rolling Sobat",
+     "input": "236HK",
+     "gauge": "d2"
+    },
+    {
+     "name": "機關槍上勾拳",
+     "name_en": "Machine Gun Uppercut",
+     "input": "214P",
+     "gauge": "d2"
+    },
+    {
+     "name": "酷樂架勢",
+     "name_en": "Jus Cool",
+     "input": "214K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "放克斬",
+       "name_en": "Funky Slicer",
+       "input": "LK",
+       "note": "酷樂架勢中"
+      },
+      {
+       "name": "殘月",
+       "name_en": "Waning Moon",
+       "input": "MK",
+       "note": "酷樂架勢中"
+      },
+      {
+       "name": "極限打擊",
+       "name_en": "Maximum Strike",
+       "input": "HK",
+       "note": "酷樂架勢中"
+      },
+      {
+       "name": "雜耍衝刺",
+       "name_en": "Juggling Dash",
+       "input": "6P",
+       "note": "酷樂架勢中"
+      },
+      {
+       "name": "雜耍閃身",
+       "name_en": "Juggling Sway",
+       "input": "4P",
+       "note": "雜耍衝刺中"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "最強迴轉踢",
+     "name_en": "The Greatest Sobat",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "低調日出祭典",
+     "name_en": "Lowkey Sunrise Festival",
+     "input": "236236LP.LP.MP.HP.LK.MK.HK",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "絕妙日出祭典",
+     "name_en": "Marvelous Sunrise Festival",
+     "input": "236236MP.LP.MP.HP.LK.MK.HK",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "頭條日出祭典",
+     "name_en": "Headliner Sunrise Festival",
+     "input": "236236HP.LP.MP.HP.LK.MK.HK",
+     "gauge": "s2",
+     "level": 2,
+     "children": [
+      {
+       "name": "高潮打擊",
+       "name_en": "Climactic Strike",
+       "input": "HP",
+       "note": "絕妙或頭條日出祭典命中後"
+      },
+      {
+       "name": "安可節拍",
+       "name_en": "Encore Beat",
+       "input": "HK",
+       "note": "絕妙或頭條日出祭典命中後"
+      }
+     ]
+    },
+    {
+     "name": "週末狂歡",
+     "name_en": "Weekend Pleasure",
+     "input": "214214P",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "膝擊",
+     "name_en": "Knee Shot",
+     "input": "j.2LK",
+     "note": "前跳中"
+    },
+    {
+     "name": "日出踵擊",
+     "name_en": "Sunrise Heel",
+     "input": "6MK"
+    },
+    {
+     "name": "碎臉擊",
+     "name_en": "Face Breaker",
+     "input": "4HK"
+    },
+    {
+     "name": "三拍連擊",
+     "name_en": "Threebeat Combo",
+     "input": "LP.MK.MK"
+    },
+    {
+     "name": "迪傑特製",
+     "name_en": "Dee Jay Special",
+     "input": "MP.HP.HK"
+    },
+    {
+     "name": "放克舞",
+     "name_en": "Funky Dance",
+     "input": "MP.MP.HP"
+    },
+    {
+     "name": "放克舞假動作",
+     "name_en": "Funky Dance Feint",
+     "input": "MP.MP.4HP"
+    },
+    {
+     "name": "空中派對",
+     "name_en": "Party in the Air",
+     "input": "j.MP.HP"
+    },
+    {
+     "name": "快速沙鈴",
+     "name_en": "Speedy Maracas",
+     "input": "22PP",
+     "note": "長按可延長"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "嗆聲曲",
+     "name_en": "Diss Track",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "翻轉投",
+     "name_en": "Flip Throw",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：狂野節拍",
+     "name_en": "Drive Impact: Wild Beat",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：腿刮",
+     "name_en": "Drive Reversal: Leg Scratch",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

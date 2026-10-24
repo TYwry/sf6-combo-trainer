@@ -1,0 +1,52 @@
+# ---- 金鑰與密碼（絕對不上傳）----
+.env
+.env.*
+config.json
+*.key
+*.pem
+*secret*
+*password*
+*credential*
+*apikey*
+
+# ---- 個人紀錄與資料（使用者的連段庫、設定都在 %APPDATA%，這裡再保險一次）----
+history.json
+*.db
+*.db-journal
+*.sqlite
+site_cache.json
+snippets.json
+
+# ---- 自己的截圖、匯入檔、存下來的網頁（個人資料／別人的版權內容）----
+圖片/
+imports/
+official-pages/
+
+# ---- 自動產生的檔案 ----
+*.log
+*.tmp
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+venv/
+.venv/
+.venv-*/
+node_modules/
+
+# ---- 大型下載與快取 ----
+*.zip
+*.7z
+*.rar
+.cache/
+
+# ---- 暫存 ----
+.commit-message.txt
+*.bundle
+Thumbs.db
+desktop.ini
+
+# ---- 舊的 Git 紀錄（改名留著備份，不上傳）----
+.git-old/
+.git-old*/

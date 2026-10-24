@@ -1,0 +1,226 @@
+{
+ "id": "guile",
+ "name": "古烈",
+ "name_en": "Guile",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "音速手刀",
+     "name_en": "Sonic Boom",
+     "input": "[4]6P",
+     "note": "→ 和攻擊鍵同時按可改變效果",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "音速破",
+       "name_en": "Sonic Break",
+       "input": "P",
+       "note": "實心拳擊手中；音速手刀或音速破中"
+      }
+     ]
+    },
+    {
+     "name": "空翻踢",
+     "name_en": "Somersault Kick",
+     "input": "[2]8K",
+     "note": "↑ 和攻擊鍵同時按可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "音速刃",
+     "name_en": "Sonic Blade",
+     "input": "214P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "音速交叉",
+       "name_en": "Sonic Cross",
+       "input": "6P",
+       "note": "音速刃中；→ 和攻擊鍵同時按可改變效果",
+       "gauge": "d2"
+      },
+      {
+       "name": "OD 音速交叉",
+       "name_en": "OD Sonic Cross",
+       "input": "6PP",
+       "note": "OD 音速刃中",
+       "gauge": "d1"
+      }
+     ]
+    },
+    {
+     "name": "音速破",
+     "name_en": "Sonic Break",
+     "input": "PP",
+     "note": "實心拳擊手中"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "音速颶風",
+     "name_en": "Sonic Hurricane",
+     "input": "[4]646P",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "實心拳擊手",
+     "name_en": "Solid Puncher",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "十字火空翻",
+     "name_en": "Crossfire Somersault",
+     "input": "[4]646K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "全彈連發",
+     "name_en": "Full Bullet Magnum",
+     "input": "6MP"
+    },
+    {
+     "name": "燃燒直拳",
+     "name_en": "Burning Straight",
+     "input": "4HP"
+    },
+    {
+     "name": "迴旋背拳",
+     "name_en": "Spinning Back Knuckle",
+     "input": "6HP"
+    },
+    {
+     "name": "膝蓋火箭砲",
+     "name_en": "Knee Bazooka",
+     "input": "4LK"
+    },
+    {
+     "name": "迴轉踢",
+     "name_en": "Rolling Sobat",
+     "input": "4MK",
+     "note": "也可以：→ + MK"
+    },
+    {
+     "name": "反向迴旋踢",
+     "name_en": "Reverse Spin Kick",
+     "input": "6HK"
+    },
+    {
+     "name": "古烈高踢",
+     "name_en": "Guile High Kick",
+     "input": "3HK"
+    },
+    {
+     "name": "後座力砲",
+     "name_en": "Recoil Cannon",
+     "input": "MP.4HP"
+    },
+    {
+     "name": "雙重射擊",
+     "name_en": "Double Shot",
+     "input": "2MP.2MP"
+    },
+    {
+     "name": "龍牙",
+     "name_en": "Drake Fang",
+     "input": "2MK.6MP"
+    },
+    {
+     "name": "幻影斬",
+     "name_en": "Phantom Cutter",
+     "input": "2HK.3HK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "龍式背摔",
+     "name_en": "Dragon Suplex",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "柔道投",
+     "name_en": "Judo Throw",
+     "input": "4LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "空中投",
+     "name_en": "Flying Mare",
+     "input": "j.LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "空中破壞摔",
+     "name_en": "Flying Buster Drop",
+     "input": "j.4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：閃擊連擊",
+     "name_en": "Drive Impact: Blitz Combination",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：打擊之鷹",
+     "name_en": "Drive Reversal: Strike Eagle",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

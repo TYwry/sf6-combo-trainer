@@ -1,0 +1,221 @@
+{
+ "id": "dhalsim",
+ "name": "達爾西姆",
+ "name_en": "Dhalsim",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "瑜珈之火",
+     "name_en": "Yoga Fire",
+     "input": "236P",
+     "note": "長按按鍵可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "瑜珈弧焰",
+     "name_en": "Yoga Arch",
+     "input": "236K",
+     "note": "出招開頭追加輸入可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "瑜珈火焰",
+     "name_en": "Yoga Flame",
+     "input": "63214P",
+     "gauge": "d2"
+    },
+    {
+     "name": "瑜珈爆炎",
+     "name_en": "Yoga Blast",
+     "input": "63214K",
+     "gauge": "d2"
+    },
+    {
+     "name": "瑜珈彗星",
+     "name_en": "Yoga Comet",
+     "input": "j.63214P",
+     "gauge": "d2"
+    },
+    {
+     "name": "瑜珈浮遊",
+     "name_en": "Yoga Float",
+     "input": "2KK",
+     "note": "也可以：↘ + KK"
+    },
+    {
+     "name": "空中瑜珈浮遊",
+     "name_en": "Aerial Yoga Float",
+     "input": "j.2KK"
+    },
+    {
+     "name": "瑜珈瞬移",
+     "name_en": "Yoga Teleport",
+     "input": "4PPP",
+     "note": "也可以：← + KKK、→ + PPP、→ + KKK"
+    },
+    {
+     "name": "空中瑜珈瞬移",
+     "name_en": "Aerial Yoga Teleport",
+     "input": "j.4PPP",
+     "note": "也可以：← + KKK、→ + PPP、→ + KKK"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "瑜珈煉獄",
+     "name_en": "Yoga Inferno",
+     "input": "236236P",
+     "note": "出招開頭追加輸入可改變效果",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "瑜珈烈日",
+     "name_en": "Yoga Sunburst",
+     "input": "214214K",
+     "note": "長按按鍵可改變效果；出招開頭追加輸入可改變軌道",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "無情瑜珈",
+     "name_en": "Merciless Yoga",
+     "input": "236236K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "瑜珈上勾拳",
+     "name_en": "Yoga Uppercut",
+     "input": "4MP"
+    },
+    {
+     "name": "瑜珈長槍",
+     "name_en": "Yoga Lance",
+     "input": "4HP"
+    },
+    {
+     "name": "涅槃拳",
+     "name_en": "Nirvana Punch",
+     "input": "1HP"
+    },
+    {
+     "name": "敏捷踢",
+     "name_en": "Agile Kick",
+     "input": "1LK"
+    },
+    {
+     "name": "神聖踢",
+     "name_en": "Divine Kick",
+     "input": "4MK"
+    },
+    {
+     "name": "推踢",
+     "name_en": "Thrust Kick",
+     "input": "1MK"
+    },
+    {
+     "name": "瑜珈山",
+     "name_en": "Yoga Mountain",
+     "input": "4HK"
+    },
+    {
+     "name": "業力踢",
+     "name_en": "Karma Kick",
+     "input": "1HK"
+    },
+    {
+     "name": "瑜珈木乃伊",
+     "name_en": "Yoga Mummy",
+     "input": "j.2LP"
+    },
+    {
+     "name": "鑽頭踢",
+     "name_en": "Drill Kick",
+     "input": "j.2K"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "瑜珈粉碎",
+     "name_en": "Yoga Smash",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "瑜珈投",
+     "name_en": "Yoga Throw",
+     "input": "4LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "瑜珈飛濺",
+     "name_en": "Yoga Splash",
+     "input": "2LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：瑜珈上升",
+     "name_en": "Drive Impact: Yoga Rise",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：瑜珈幻影",
+     "name_en": "Drive Reversal: Yoga Illusion",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

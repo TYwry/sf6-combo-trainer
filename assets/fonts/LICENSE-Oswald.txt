@@ -1,0 +1,6 @@
+Oswald 字型（Oswald-Medium.ttf、Oswald-Bold.ttf）
+Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+
+授權：SIL Open Font License 1.1（可免費使用、隨程式散布，不可單獨販售字型）
+授權全文：https://openfontlicense.org/open-font-license-official-text/
+下載來源：Google Fonts（https://fonts.google.com/specimen/Oswald）

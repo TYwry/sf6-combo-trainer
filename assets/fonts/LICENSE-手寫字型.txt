@@ -1,0 +1,14 @@
+霞鶩文楷 TC（LXGWWenKaiTC-Regular.ttf、LXGWWenKaiTC-Bold.ttf）
+Copyright 2021 LXGW (https://github.com/lxgw/LxgwWenkaiTC)
+下載來源：Google Fonts（https://fonts.google.com/specimen/LXGW+WenKai+TC）
+
+Gochi Hand（GochiHand-Regular.ttf）
+Copyright 2011 Huerta Tipográfica
+下載來源：Google Fonts（https://fonts.google.com/specimen/Gochi+Hand）
+
+Patrick Hand（PatrickHand-Regular.ttf）
+Copyright 2012 Patrick Wagesreiter
+下載來源：Google Fonts（https://fonts.google.com/specimen/Patrick+Hand）
+
+授權：以上三套都是 SIL Open Font License 1.1（可免費使用、隨程式散布，不可單獨販售字型）
+授權全文：https://openfontlicense.org/open-font-license-official-text/

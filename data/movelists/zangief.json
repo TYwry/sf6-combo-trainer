@@ -1,0 +1,218 @@
+{
+ "id": "zangief",
+ "name": "桑吉爾夫",
+ "name_en": "Zangief",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "雙重金臂勾",
+     "name_en": "Double Lariat",
+     "input": "PP",
+     "gauge": "d2"
+    },
+    {
+     "name": "螺旋打樁機",
+     "name_en": "Screw Piledriver",
+     "input": "63214789P",
+     "note": "近身時；轉一圈",
+     "gauge": "d2"
+    },
+    {
+     "name": "羅宋湯炸彈",
+     "name_en": "Borscht Dynamite",
+     "input": "j.63214789K",
+     "note": "近身時；轉一圈",
+     "gauge": "d2"
+    },
+    {
+     "name": "俄羅斯背摔",
+     "name_en": "Russian Suplex",
+     "input": "63214K",
+     "note": "近身時",
+     "gauge": "d2"
+    },
+    {
+     "name": "西伯利亞特快車",
+     "name_en": "Siberian Express",
+     "input": "63214K",
+     "note": "離對手遠時",
+     "gauge": "d2"
+    },
+    {
+     "name": "凍原風暴",
+     "name_en": "Tundra Storm",
+     "input": "22HK"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "空中俄羅斯摔",
+     "name_en": "Aerial Russian Slam",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "旋風金臂勾",
+     "name_en": "Cyclone Lariat",
+     "input": "236236P",
+     "note": "長按按鍵可改變效果",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "大劇院風暴破壞者",
+     "name_en": "Bolshoi Storm Buster",
+     "input": "6321478963214789P",
+     "note": "近身時；體力剩 25% 以下時威力提升；轉兩圈",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "地獄刺擊",
+     "name_en": "Hellstab",
+     "input": "3MP"
+    },
+    {
+     "name": "膝錘",
+     "name_en": "Knee Hammer",
+     "input": "6MK"
+    },
+    {
+     "name": "頭槌",
+     "name_en": "Headbutt",
+     "input": "6HP"
+    },
+    {
+     "name": "旋風車輪踢",
+     "name_en": "Cyclone Wheel Kick",
+     "input": "6HK"
+    },
+    {
+     "name": "酸奶油飛踢",
+     "name_en": "Smetana Dropkick",
+     "input": "3HK"
+    },
+    {
+     "name": "飛身壓",
+     "name_en": "Flying Body Press",
+     "input": "j.2HP"
+    },
+    {
+     "name": "飛身頭槌",
+     "name_en": "Flying Headbutt",
+     "input": "j.8HP",
+     "note": "垂直跳中"
+    },
+    {
+     "name": "機關槍手刀",
+     "name_en": "Machine Gun Chops",
+     "input": "MP.MP.MP"
+    },
+    {
+     "name": "強力踐踏",
+     "name_en": "Power Stomps",
+     "input": "22MK.MK.MK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "抱摔",
+     "name_en": "Bodyslam",
+     "input": "LP+LK",
+     "note": "近身時；長按按鍵會追加攻擊"
+    },
+    {
+     "name": "捕捉背摔",
+     "name_en": "Capture Suplex",
+     "input": "4LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "德式背摔",
+     "name_en": "German Suplex",
+     "input": "6LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "脊椎破壞",
+     "name_en": "Spinebuster",
+     "input": "3LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "俄羅斯墜落",
+     "name_en": "Russian Drop",
+     "input": "1LP+LK",
+     "note": "近身時"
+    },
+    {
+     "name": "腦天落",
+     "name_en": "Brain Buster",
+     "input": "2LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：雙重俄羅斯手刀",
+     "name_en": "Drive Impact: Double Russian Chop",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：反向俄羅斯踢",
+     "name_en": "Drive Reversal: Reverse Russian Kick",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

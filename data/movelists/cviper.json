@@ -1,0 +1,196 @@
+{
+ "id": "cviper",
+ "name": "C Viper",
+ "name_en": "C. Viper",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "雷霆衝刺",
+     "name_en": "Thunder Dash",
+     "input": "214P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "追蹤連擊",
+       "name_en": "Tracer Combination",
+       "input": "6PP",
+       "note": "雷霆衝刺中",
+       "gauge": "d1"
+      },
+      {
+       "name": "假動作",
+       "name_en": "Feint",
+       "input": "K",
+       "note": "雷霆衝刺發動前"
+      }
+     ]
+    },
+    {
+     "name": "燃燒踢",
+     "name_en": "Burning Kick",
+     "input": "236K",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "追擊鐵拳",
+       "name_en": "Knuckled Pursuit",
+       "input": "PP",
+       "note": "燃燒踢中",
+       "gauge": "d1"
+      },
+      {
+       "name": "雙重燃燒",
+       "name_en": "Double Burn",
+       "input": "KK",
+       "note": "燃燒踢中",
+       "gauge": "d1"
+      }
+     ]
+    },
+    {
+     "name": "空中燃燒踢",
+     "name_en": "Aerial Burning Kick",
+     "input": "j.236K",
+     "note": "垂直跳或前跳中",
+     "gauge": "d2"
+    },
+    {
+     "name": "地震重錘",
+     "name_en": "Seismic Hammer",
+     "input": "623P",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "假動作",
+       "name_en": "Feint",
+       "input": "K",
+       "note": "地震重錘發動前"
+      }
+     ]
+    },
+    {
+     "name": "集中之力",
+     "name_en": "Focus Force",
+     "input": "214K",
+     "note": "長按按鍵可改變效果",
+     "gauge": "d2"
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "限制解除",
+     "name_en": "Limit Decoupler",
+     "input": "236236K",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "任務完成",
+     "name_en": "Mission Complete",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "厄運排除",
+     "name_en": "Hard Luck Rejector",
+     "input": "214214K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "毒蛇肘",
+     "name_en": "Viper Elbow",
+     "input": "6MP"
+    },
+    {
+     "name": "雙踢",
+     "name_en": "Double Kick",
+     "input": "6HK"
+    },
+    {
+     "name": "超級跳",
+     "name_en": "High Jump",
+     "input": "28",
+     "note": "↓ 之後馬上 ↑",
+     "gauge": "d1"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "高壓衝擊",
+     "name_en": "High Impulse",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "雷霆搖籃",
+     "name_en": "Thunder Cradle",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：毒蛇加農",
+     "name_en": "Drive Impact: Viper Cannon",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：反擊火花",
+     "name_en": "Drive Reversal: Counter Spark",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}

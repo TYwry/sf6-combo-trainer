@@ -1,0 +1,218 @@
+{
+ "id": "marisa",
+ "name": "瑪莉莎",
+ "name_en": "Marisa",
+ "source": "Street Fighter 6 官網招式表（中文翻譯）",
+ "categories": [
+  {
+   "key": "special",
+   "name": "必殺技",
+   "moves": [
+    {
+     "name": "短劍",
+     "name_en": "Gladius",
+     "input": "236P",
+     "note": "長按按鍵可改變效果",
+     "gauge": "d2"
+    },
+    {
+     "name": "雙劍士",
+     "name_en": "Dimachaerus",
+     "input": "214P.6P",
+     "gauge": "d2"
+    },
+    {
+     "name": "方陣",
+     "name_en": "Phalanx",
+     "input": "623P",
+     "gauge": "d2"
+    },
+    {
+     "name": "四馬戰車",
+     "name_en": "Quadriga",
+     "input": "236K",
+     "gauge": "d2"
+    },
+    {
+     "name": "盾牌架勢",
+     "name_en": "Scutum",
+     "input": "214K",
+     "note": "長按按鍵維持架勢",
+     "gauge": "d2",
+     "children": [
+      {
+       "name": "雷鳴",
+       "name_en": "Tonitrus",
+       "input": "P.P",
+       "note": "盾牌架勢中"
+      },
+      {
+       "name": "暴風",
+       "name_en": "Procella",
+       "input": "K",
+       "note": "盾牌架勢中"
+      },
+      {
+       "name": "包覆",
+       "name_en": "Enfold",
+       "input": "LP+LK",
+       "note": "盾牌架勢中；近身時"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super",
+   "name": "超必殺技",
+   "moves": [
+    {
+     "name": "瑪莉莎之槍",
+     "name_en": "Javelin of Marisa",
+     "input": "236236P",
+     "note": "長按按鍵可改變效果",
+     "gauge": "s1",
+     "level": 1
+    },
+    {
+     "name": "隕石",
+     "name_en": "Meteorite",
+     "input": "214214P",
+     "gauge": "s2",
+     "level": 2
+    },
+    {
+     "name": "狩獵女神",
+     "name_en": "Goddess of the Hunt",
+     "input": "236236K",
+     "note": "體力剩 25% 以下時威力提升",
+     "gauge": "s3",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "key": "unique",
+   "name": "特殊技",
+   "moves": [
+    {
+     "name": "瑪莉莎流",
+     "name_en": "Marisa Style",
+     "input": "HP",
+     "note": "第一下重攻擊可以長按；連打；也可以：HK"
+    },
+    {
+     "name": "輕二連擊",
+     "name_en": "Light Two Hitter",
+     "input": "LP.LP"
+    },
+    {
+     "name": "中二連擊",
+     "name_en": "Medium Two Hitter",
+     "input": "MP.MP"
+    },
+    {
+     "name": "重二連擊",
+     "name_en": "Heavy Two Hitter",
+     "input": "HP.HP"
+    },
+    {
+     "name": "飛翔連擊",
+     "name_en": "Volare Combo",
+     "input": "j.MP.MP"
+    },
+    {
+     "name": "天穹弧",
+     "name_en": "Caelum Arc",
+     "input": "j.2HP",
+     "note": "垂直跳中"
+    },
+    {
+     "name": "巨大堡壘",
+     "name_en": "Magna Bunker",
+     "input": "4HP"
+    },
+    {
+     "name": "剃刀揮擊",
+     "name_en": "Novacula Swipe",
+     "input": "6MP.HP"
+    },
+    {
+     "name": "剃刀突刺",
+     "name_en": "Novacula Thrust",
+     "input": "6.MP.HK"
+    },
+    {
+     "name": "鐵錘破",
+     "name_en": "Malleus Breaker",
+     "input": "3HP.3HP"
+    },
+    {
+     "name": "鐮刀粉碎",
+     "name_en": "Falx Crusher",
+     "input": "6HK.6HK"
+    }
+   ]
+  },
+  {
+   "key": "throw",
+   "name": "投技",
+   "moves": [
+    {
+     "name": "騎乘優雅",
+     "name_en": "Mounted Grace",
+     "input": "LP+LK",
+     "note": "近身時；也可以：→ + LP+LK"
+    },
+    {
+     "name": "米爾維安橋",
+     "name_en": "Ponte Milvio",
+     "input": "4LP+LK",
+     "note": "近身時"
+    }
+   ]
+  },
+  {
+   "key": "common",
+   "name": "通用系統",
+   "moves": [
+    {
+     "name": "DI（動力衝擊）：追擊者",
+     "name_en": "Drive Impact: Secutor",
+     "input": "DI",
+     "gauge": "d1"
+    },
+    {
+     "name": "動力反擊：愛的拍擊",
+     "name_en": "Drive Reversal: Love Tap",
+     "input": "6DI",
+     "note": "防禦中、起身時或 DP（Parry）成功時",
+     "gauge": "d2"
+    },
+    {
+     "name": "DP（Parry）",
+     "name_en": "Drive Parry",
+     "input": "DP",
+     "note": "長按可延長",
+     "gauge": "dd",
+     "children": [
+      {
+       "name": "格擋前衝",
+       "name_en": "Parry Drive Rush",
+       "input": "PDR",
+       "note": "DP（Parry）中按 →→",
+       "gauge": "d05"
+      }
+     ]
+    },
+    {
+     "name": "取消前衝",
+     "name_en": "Cancel Drive Rush",
+     "input": "DR",
+     "note": "可以取消的招式命中時按 →→ 或 MP+MK",
+     "gauge": "d3"
+    }
+   ]
+  }
+ ]
+}
