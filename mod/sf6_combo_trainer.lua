@@ -12,7 +12,7 @@
 -- 除了第 3 項的訓練模式重置（播放儲存狀態時會讓遊戲以為 LT 被按了幾幀），只讀遊戲資料，不改遊戲裡的其他東西。
 -- 讀取的欄位與重置做法參考 SF6_Tools／SF6CC（MIT License）。
 
-local SCRIPT_VERSION = 12
+local SCRIPT_VERSION = 13
 local OUT_FILE = "SF6ComboTrainer_state.json"
 local HEARTBEAT_FRAMES = 30          -- 沒變化時每 30 幀（約 0.5 秒）也寫一次，讓練習器知道遊戲還開著
 local ONLINE_MODES = { [14] = true, [15] = true, [16] = true, [17] = true, [18] = true }
@@ -578,7 +578,10 @@ re.on_frame(function()
         last.p1, last.p2, last.training, last.online, last.flow = p1, p2, training, online, flow
     end
 
-    if loading_visible() then
+    -- 訓練場裡都不顯示（TY 要求），訓練場以外的載入畫面和配對視窗才顯示
+    if training then
+        -- 不顯示
+    elseif loading_visible() then
         pcall(draw_warning, MENU_LINES)
     elseif battle_setting_open() and flow ~= FLOW_REPLAY then
         pcall(draw_warning, SETTING_LINES, 0.62)

@@ -5,7 +5,7 @@ from pathlib import Path
 
 APP_NAME = "SF6ComboTrainer"
 APP_DISPLAY_NAME = "SF6 連段練習器"
-APP_VERSION = "1.31.1"
+APP_VERSION = "1.31.3"
 APP_USER_MODEL_ID = "sf6-combo-trainer"
 
 # 分享版（PyInstaller 打包成 exe）時 sys.frozen 為 True：

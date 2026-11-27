@@ -5,9 +5,9 @@
 """
 from __future__ import annotations
 
-from PySide6.QtCore import QPoint, QRectF, Qt, Signal
+from PySide6.QtCore import QEvent, QObject, QPoint, QRectF, Qt, QTimer, Signal
 from PySide6.QtGui import QAction, QActionGroup, QColor, QPainter
-from PySide6.QtWidgets import QMenu, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QApplication, QMenu, QVBoxLayout, QWidget
 
 from ui import theme
 from ui.trial_view import TrialView
@@ -15,6 +15,42 @@ from ui.trial_view import TrialView
 OPACITY_CHOICES = [1.0, 0.85, 0.7, 0.55, 0.4, 0.3]
 ZOOM_CHOICES = [("小", 0.75), ("中", 1.0), ("大", 1.25), ("特大", 1.5)]
 ROW_CHOICES = [0, 3, 5, 7]
+
+
+class ModalGuard(QObject):
+    """確認視窗這類「要先回答才能動別的視窗」的對話框打開時，先把浮動視窗藏起來，關掉後再放回來。
+
+    浮動視窗永遠在最上層，對話框會被它蓋住按不到；對話框又擋住其他所有視窗，整個畫面就卡死了。
+    """
+    WATCH = (QEvent.Show, QEvent.Hide, QEvent.WindowBlocked, QEvent.WindowUnblocked)
+
+    def __init__(self, overlay: "OverlayWindow"):
+        super().__init__(overlay)
+        self.overlay = overlay
+        self.hidden = False
+        self._timer = QTimer(self)
+        self._timer.setSingleShot(True)
+        self._timer.setInterval(0)
+        self._timer.timeout.connect(self._check)
+        QApplication.instance().installEventFilter(self)
+
+    def eventFilter(self, obj, ev):
+        if ev.type() in self.WATCH and isinstance(obj, QWidget) and obj.isWindow():
+            self._timer.start()          # 等這一輪事件跑完再看，對話框才真的開好／關好
+        return False
+
+    def _check(self):
+        modal = QApplication.activeModalWidget()
+        if modal is not None and modal is not self.overlay:
+            if self.overlay.isVisible():
+                self.hidden = True
+                self.overlay.hide()
+            modal.raise_()
+            modal.activateWindow()
+        elif self.hidden:
+            self.hidden = False
+            self.overlay.show()
+            self.overlay._remember()     # 讓主視窗的「浮動視窗」按鈕跟著更新
 
 
 class OverlayWindow(QWidget):
@@ -43,6 +79,7 @@ class OverlayWindow(QWidget):
         self._apply_flags()
         self.apply_look()
         self._restore_geometry()
+        self.modal_guard = ModalGuard(self)
 
     # ---- 視窗屬性 ----
     @property
@@ -132,8 +169,7 @@ class OverlayWindow(QWidget):
         p = QPainter(self)
         p.setRenderHint(QPainter.Antialiasing)
         r = QRectF(self.rect()).adjusted(3, 3, -3, -3)
-        bg = QColor(theme.c("panel"))
-        bg.setAlpha(238)
+        bg = QColor(theme.c("panel"))     # 底色不另外調透明，透明度 100% 時就完全不透明
         theme.draw_ink_rect(p, r, 14, bg, 2.6, theme.seed_of("overlay", int(r.width()), int(r.height())))
         if not self.locked:
             p.setPen(QColor(theme.c("muted")))
@@ -200,9 +236,9 @@ class OverlayWindow(QWidget):
 
     def contextMenuEvent(self, e):
         menu = QMenu(self)
-        if not self.view.practice:
-            menu.addAction("開始練習").triggered.connect(lambda: self.practice_requested.emit(True))
-            menu.addSeparator()
+        # 練習中也有「開始練習」：按了就從第一步重新開始
+        menu.addAction("開始練習").triggered.connect(lambda: self.practice_requested.emit(True))
+        menu.addSeparator()
         op = menu.addMenu("透明度")
         group = QActionGroup(op)
         cur = float(self.cfg.get("overlay_opacity", 0.85))

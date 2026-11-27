@@ -53,14 +53,13 @@ class MainWindow(QMainWindow):
         self._restore_geometry()
         self.apply_theme()
         self._build_background()
-        self._build_game()
 
         self.timer = QTimer(self)
         self.timer.timeout.connect(self._tick)
         self.timer.start(16)
         self.reader.start()
 
-        # 圖片資料夾流程：放進 imports 的匯入檔自動加入連段庫
+        # 圖片資料夾流程：Claude 放進 imports 的匯入檔自動加入連段庫
         from data.auto_import import AutoImporter
         self.auto_importer = AutoImporter(self.store, self._char_names())
         self.auto_timer = QTimer(self)
@@ -130,49 +129,6 @@ class MainWindow(QMainWindow):
         self._character_changed()
         self.tabs.setCurrentIndex(min(max(0, int(self.cfg.get("last_tab", 0) or 0)), 2))
 
-    # ---- 遊戲 mod ----
-    def _build_game(self):
-        from core import game_bridge
-        self.game_feed = game_bridge.GameFeed()
-        self.combo_page.game_feed = self.game_feed
-        self.apply_game_dir()
-        self._game_was_running = False
-        self.game_timer = QTimer(self)
-        self.game_timer.timeout.connect(self._watch_game)
-        self.game_timer.start(3000)
-        QTimer.singleShot(2500, self._watch_game)
-
-    def apply_game_dir(self):
-        """遊戲資料夾沒設定或不對時，自動從 Steam 找一次。"""
-        from core import game_bridge
-        d = self.cfg.get("sf6_game_dir", "")
-        if not game_bridge.is_game_dir(d):
-            found = game_bridge.find_game_dir()
-            if found:
-                self.cfg["sf6_game_dir"] = d = str(found)
-                self._save()
-        self.game_feed.set_game_dir(d if game_bridge.is_game_dir(d) else None)
-
-    def _watch_game(self):
-        """遊戲剛開起來、mod 又是開著的：跳通知提醒對戰前要關 mod。"""
-        from core import game_bridge
-        running = game_bridge.game_running()
-        started = running and not self._game_was_running
-        self._game_was_running = running
-        d = self.cfg.get("sf6_game_dir", "")
-        if not started or not game_bridge.is_game_dir(d):
-            return
-        if self.cfg.get("mod_start_notice", True) and game_bridge.mod_state(d) == "on":
-            text = ("遊戲啟動了，mod 是開著的。\n要線上對戰前，請先關遊戲，"
-                    "再到練習器「設定 → 遊戲 mod」把 mod 關掉。")
-            if Tray.available():
-                self.tray.notify(text)
-            else:
-                QMessageBox.information(self, APP_DISPLAY_NAME, text)
-        if self.cfg.get("game_check_enabled", True) and game_bridge.script_state(d) != "ok":
-            self.tray.notify("遊戲內腳本還沒安裝或需要更新，遊戲判定暫時用不到。\n"
-                             "請到「設定 → 遊戲 mod」按「安裝遊戲內腳本」，再重開遊戲。")
-
     # ---- 浮動視窗、系統匣、快捷鍵 ----
     def _build_background(self):
         self.overlay = OverlayWindow(self.cfg)
@@ -239,6 +195,9 @@ class MainWindow(QMainWindow):
         self._sync_controls()
 
     def _set_practice(self, on: bool):
+        if on and self.combo_page.practice_btn.isChecked():
+            self.combo_page.restart_practice()     # 已經在練：從第一步重新開始
+            return
         if self.combo_page.practice_btn.isChecked() != on and (self.combo_page.current_id or not on):
             self.combo_page.practice_btn.setChecked(on)
         self._sync_controls()
@@ -281,7 +240,6 @@ class MainWindow(QMainWindow):
         dlg.shortcut_requested.connect(self._create_shortcuts)
         dlg.export_requested.connect(self._export)
         dlg.import_requested.connect(self._import)
-        dlg.game_dir_changed.connect(self._game_dir_changed)
         place_before = (self.cfg.get("window_size", "1920"), self.cfg.get("window_screen", ""))
         accepted = dlg.exec() == SettingsDialog.Accepted
         restart = False
@@ -298,7 +256,6 @@ class MainWindow(QMainWindow):
                         values[key] = self.cfg.get(key, DEFAULTS.get(key))
             self.cfg.update(values)
             self.combo_page.set_numpad_visible(bool(self.cfg.get("show_numpad", True)))
-            self.combo_page._update_practice_status()
             want = dlg.autostart_wanted()
             if want != autostart.is_enabled():
                 err = autostart.set_enabled(want)
@@ -313,12 +270,6 @@ class MainWindow(QMainWindow):
             self.quit_app()
             return
         self._register_hotkeys()
-
-    def _game_dir_changed(self, path: str):
-        """設定視窗裡換了遊戲資料夾：馬上存起來並改讀新的位置（不用等按儲存）。"""
-        self.cfg["sf6_game_dir"] = path
-        self._save()
-        self.game_feed.set_game_dir(path)
 
     def _ask_restart(self, what: str) -> bool:
         """詢問要不要立刻重開程式；按「確定」才回傳 True。"""
@@ -506,7 +457,6 @@ class MainWindow(QMainWindow):
                 continue                 # 按住 BACK 時按的鍵不算連段輸入
             self.combo_page.practice_event(ev)
         now = time.perf_counter()
-        self.game_feed.poll(now)
         self.controller_page.tick(now)
         self.combo_page.practice_tick(now)
 
